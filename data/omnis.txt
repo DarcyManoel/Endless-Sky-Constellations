@@ -1,0 +1,177 @@
+#	Map
+system "Constellations "
+	"jump range" 3000
+	government "Ancillary"
+	pos 1000 -10000
+	object "  Constellations"
+		sprite "asteroid/yottrite/spin"
+	# Arena
+	object "Kar Ik Vot 637  "
+		distance 900
+		offset 30
+		sprite "ship/karIkVot637"
+	object "Kar Ik Vot 711  "
+		distance 900
+		offset 60
+		sprite "ship/karIkVot711"
+	object "Quarg Drake  "
+		distance 900
+		offset 90
+		sprite "ship/quargDrake"
+	object "Quarg Hydra  "
+		distance 900
+		offset 120
+		sprite "ship/quargHydra"
+	object "Scud  "
+		distance 900
+		offset 150
+		sprite "ship/scud"
+planet "Everything "
+	shipyard "constellations"
+	outfitter "constellations"
+planet "  Constellations"
+	bribe 0
+	description ""
+	spaceport ""
+	shipyard "constellations"
+	outfitter "constellations"
+#	Sales
+shipyard "constellations"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+	"Model 8 (Disruptor)" #
+	"Model 8 (Minelayer)" #
+	"Quarg Drake"
+	"Quarg Hydra"
+	"Scud"
+outfitter "constellations"
+	"Knockout Gas"
+	"Shield Disruptor Gun"
+	"Shipwright Gear"
+	"Type 0 Radiant Engine"
+	"Vector Engine (Reality Class)"
+outfitter "human"
+	"Knockout Gas"
+	"Shipwright Gear"
+shipyard "korath"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+shipyard "korathVariants"
+	"Model 8 (Disruptor)" #
+	"Model 8 (Minelayer)" #
+outfitter "korath"
+	"Shield Disruptor Gun"
+	"Vector Engine (Reality Class)"
+shipyard "quarg"
+	"Quarg Drake"
+	"Quarg Hydra"
+shipyard "wanderer"
+	"Scud"
+outfitter "wanderer"
+	"Type 0 Radiant Engine"
+#	Arena
+planet "Scud "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Scud "
+		threshold 0
+planet "Scud  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Scud "
+		threshold 0
+fleet "Scud "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scud"
+planet "Quarg Drake "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Drake "
+		threshold 0
+planet "Quarg Drake  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Drake "
+		threshold 0
+fleet "Quarg Drake "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Drake"
+planet "Quarg Hydra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Hydra "
+		threshold 0
+planet "Quarg Hydra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Hydra "
+		threshold 0
+fleet "Quarg Hydra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Hydra"
+planet "Kar Ik Vot 637 "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 637 "
+		threshold 0
+planet "Kar Ik Vot 637  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 637 "
+		threshold 0
+fleet "Kar Ik Vot 637 "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kar Ik Vot 637"
+		"Far Lek 14" 3 #
+		"Far Osk 27" 2 #
+planet "Kar Ik Vot 711 "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 711 "
+		threshold 0
+planet "Kar Ik Vot 711  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 711 "
+		threshold 0
+fleet "Kar Ik Vot 711 "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kar Ik Vot 711"
+#	Mapping
+mission "Constellations: reveal constellations"
+	invisible
+	landing
+	on accept
+		event "Constellations: reveal constellations"
+	repeat
+	source
+		government
+			"Omnis"
+			"Faction"
+			"Ancillary"
+	to offer
+		or
+			has "global: Omnis: Automatic Map Reveal"
+			has "Omnis: enable map reveal"
+event "Constellations: reveal constellations"
+	visit "Constellations "

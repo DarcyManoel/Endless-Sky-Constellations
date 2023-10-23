@@ -1,0 +1,62 @@
+ship "Kestrel"
+	sprite "ship/kestrel"
+	thumbnail "thumbnail/kestrel"
+	attributes
+		category "Heavy Warship"
+		"cost" 76500000
+		"shields" 34400
+		"hull" 16200
+		"required crew" 64
+		"bunks" 128
+		"mass" 740
+		"drag" 11
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 120
+		"outfit space" 900
+		"weapon capacity" 410
+		"engine capacity" 220
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+ship "Kestrel" "Kestrel (More Engines)"
+	add attributes
+		"drag" -2
+		"engine capacity" 55
+		"fuel capacity" 300
+ship "Kestrel" "Kestrel (More Shields)"
+	add attributes
+		"hull" 4900
+		"outfit space" -40
+		"shields" 28000
+ship "Kestrel" "Kestrel (More Weapons)"
+	add attributes
+		"drag" -1
+		"fuel capacity" 100
+		"weapon capacity" 150
+	gun -75 57 "Torpedo Launcher"
+	gun -75 57
+	gun 75 57 "Torpedo Launcher"
+	gun 75 57
+	gun -53 61 "Particle Cannon"
+	gun -53 61
+	gun 53 61 "Particle Cannon"
+	gun 53 61
+	gun -31 66 "Particle Cannon"
+	gun -31 66
+	gun 31 66 "Particle Cannon"
+	gun 31 66
+	turret -7 -4 "Heavy Laser Turret"
+	turret 7 -4 "Heavy Laser Turret"
+	turret -23 14 "Heavy Laser Turret"
+	turret 23 14 "Heavy Laser Turret"
+	bay "Fighter" -46 106 under
+		"launch effect" "human internal"
+	bay "Fighter" -46 106 under
+		"launch effect" "human internal"
+	bay "Fighter" 46 106 under
+		"launch effect" "human internal"
+	bay "Fighter" 46 106 under
+		"launch effect" "human internal"

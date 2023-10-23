@@ -1,0 +1,66 @@
+#	Fleets
+fleet "Wanderer Flycatchers"
+	add variant
+		"Scud" 2
+	add variant
+		"Scud" 3
+	add variant
+		"Scud" 4
+	add variant
+		"Scud" 5
+#	Outfits
+outfit "Type 0 Radiant Engine"
+	category "Engines"
+	licenses
+		"Wanderer Outfits"
+	cost 170000
+	mass 14
+	"outfit space" -14
+	"engine capacity" -14
+	thrust 8.3
+	"thrusting energy" 0.46
+	"thrusting heat" 0.5
+	turn 242
+	"turning energy" 0.46
+	"turning heat" 0.84
+	cooling 1.9
+	thumbnail "outfit/type0RadiantEngine"
+	"flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 12
+	"flare sound" "plasma tiny"
+	description `The construction of the new Scud drones prompted a need for an even smaller engine complement than was available at the time. This led to the creation of the Type 0 Radiant Engine, the Wanderers' first-ever hybrid engines systems, capable of achieving speeds comparable to a set of Type 1 engines whilst remaining significantly smaller.`
+	description `This efficiency serves as a reminder to the Wanderers that their engineering has not stagnated, and that they are still capable of progressing their technology.`
+#	Ships
+ship "Scud"
+	attributes
+		"engine capacity" 17
+		"heat dissipation" .7
+		"outfit space" 61
+		"weapon capacity" 29
+		automaton 1
+		category "Drone"
+		cost 980000
+		drag .6
+		hull 3900
+		licenses
+			"Wanderer"
+		mass 41
+		weapon
+			"blast radius" 10
+			"hit force" 250
+			"hull damage" 150
+			"shield damage" 100
+	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
+	engine -9 28
+	engine 9 28
+	explode "small explosion" 20
+	explode "tiny explosion" 30
+	outfits
+		"Small Biochemical Cell"
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 40
+		"Type 0 Radiant Engine"
+	sprite "ship/scud"
+	thumbnail "thumbnail/scud"
+	#	Hardpoints
+	gun 0 -36 "Thunderhead Launcher"
