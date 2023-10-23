@@ -66,6 +66,6 @@ outfit "Keystone Stabilizer"
 	mass 2
 	"outfit space" -1
 	"resonant drain" 1
-	category "Miscellaneous"
+	category "Systems"
 	thumbnail "outfit/unknown"
 	description `The Remnant sell these devices as an addendum to the Quantum Keystones. Quantum Keystones are occasionally subject to some sort of energetic build-up where their ordinary workings are interfered with, this is what these devices prevent.`
