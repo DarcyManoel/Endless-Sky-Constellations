@@ -9,11 +9,18 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
- images/scene/ring.jpg
+ images/scene/ring*
 Copyright: Darcy Manoel <darcman00@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by Hill for 'The Ring World of "The Puppet Masters" by Larry Niven'
 Link: https://commons.wikimedia.org/wiki/File:Ringworld.jpg
+
+files:
+ images/ship/bennu*
+ images/thumbnail/bennu*
+Copyright: bene_dictator (benstaples8068@gmail.com)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>, Becca Tommaso (tommasobecca03@gmail.com), and Darcy Manoel
 
 License: CC-BY-SA-4.0
 	By exercising the Licensed Rights (defined below), You accept and agree

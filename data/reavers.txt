@@ -1,0 +1,42 @@
+ship "Firebird" "Bennu"
+	sprite "ship/bennu"
+	thumbnail "thumbnail/bennu"
+	description `An extensive modification of the base Firebird birthed this hull. It is clearly more extreme than typical marauder modifications.`
+	description `Not much is known about the original owner of this ship, one thing that is apparent is that they were capable of sourcing exotic technology. Rumors occasionally circulate about the lengths pirate sub-factions will go to stretch the capabilities of the ships they own, this is a prime example of that.`
+	add attributes
+		cost 220000
+		shields 2900
+		hull -100
+		"required crew" 1
+		bunks 3
+		mass 40
+		drag .3
+		"heat dissipation" .1
+		"cargo space" -15
+		"outfit space" 20
+		"weapon capacity" -35
+		"engine capacity" 5
+	outfits
+		"Bullfrog Anti-Missile" 2
+		"Fission Reactor"
+		"Generator (Furnace Class)"
+		"Hai Corundum Regenerator"
+		"Hyperdrive"
+		"Inhibitor Cannon" 2
+		"Laser Rifle" 5
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Nerve Gas" 2
+		"Plasma Repeater" 2
+		"Small Heat Shunt" 2
+		"Thruster (Asteroid Class)"
+		`"Biroo" Atomic Steering`
+		`"Biroo" Atomic Thruster`
+	gun -30 -28.5 "Inhibitor Cannon"
+	gun 30 -28.5 "Inhibitor Cannon"
+	gun -42.5 -12 "Plasma Repeater"
+	gun 42.5 -12 "Plasma Repeater"
+	turret -40 40 "Bullfrog Anti-Missile"
+	turret 40 40 "Bullfrog Anti-Missile"
+	engine -36 78
+	engine 36 78

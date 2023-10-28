@@ -26,6 +26,10 @@ system "Constellations "
 		distance 900
 		offset 150
 		sprite "ship/scud"
+	object "Bennu  "
+		distance 900
+		offset 180
+		sprite "ship/bennu"
 planet "Everything "
 	shipyard "constellations"
 	outfitter "constellations"
@@ -37,6 +41,7 @@ planet "  Constellations"
 	outfitter "constellations"
 #	Sales
 shipyard "constellations"
+	"Bennu"
 	"Kar Ik Vot 637"
 	"Kar Ik Vot 711"
 	"Model 8 (Disruptor)" #
@@ -50,6 +55,8 @@ outfitter "constellations"
 	"Shipwright Gear"
 	"Type 0 Radiant Engine"
 	"Vector Engine (Reality Class)"
+shipyard "human"
+	"Bennu"
 outfitter "human"
 	"Knockout Gas"
 	"Shipwright Gear"
@@ -70,57 +77,6 @@ shipyard "wanderer"
 outfitter "wanderer"
 	"Type 0 Radiant Engine"
 #	Arena
-planet "Scud "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Scud "
-		threshold 0
-planet "Scud  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Scud "
-		threshold 0
-fleet "Scud "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Scud"
-planet "Quarg Drake "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Quarg Drake "
-		threshold 0
-planet "Quarg Drake  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Quarg Drake "
-		threshold 0
-fleet "Quarg Drake "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Quarg Drake"
-planet "Quarg Hydra "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Quarg Hydra "
-		threshold 0
-planet "Quarg Hydra  "
-	bribe 0
-	government "Arena"
-	tribute 1
-		fleet "Quarg Hydra "
-		threshold 0
-fleet "Quarg Hydra "
-	government "Arena"
-	personality "heroic"
-	variant
-		"Quarg Hydra"
 planet "Kar Ik Vot 637 "
 	bribe 0
 	government "Arena"
@@ -157,6 +113,74 @@ fleet "Kar Ik Vot 711 "
 	personality "heroic"
 	variant
 		"Kar Ik Vot 711"
+planet "Quarg Drake "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Drake "
+		threshold 0
+planet "Quarg Drake  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Drake "
+		threshold 0
+fleet "Quarg Drake "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Drake"
+planet "Quarg Hydra "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Hydra "
+		threshold 0
+planet "Quarg Hydra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Hydra "
+		threshold 0
+fleet "Quarg Hydra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Hydra"
+planet "Scud "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Scud "
+		threshold 0
+planet "Scud  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Scud "
+		threshold 0
+fleet "Scud "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scud"
+planet "Bennu "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Bennu "
+		threshold 0
+planet "Bennu  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Bennu "
+		threshold 0
+fleet "Bennu "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Bennu"
 #	Mapping
 mission "Constellations: reveal constellations"
 	invisible
