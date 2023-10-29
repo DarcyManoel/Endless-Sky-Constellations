@@ -70,6 +70,99 @@ planet "Starwind"
 	government "Independent"
 	attributes station north pirate
 	description `As an autonomous entity, the space station operates outside the jurisdiction of any particular governing body, fostering a sense of independence and self-determination. It provides a neutral ground for diplomacy and commerce to take place.`
-	description `Warnings of danger flash regularly and smaller signs make clear that they do not make any assurances of safety in this sector or any visitors aboard the station. Starwind station is impressively well kempt despite the crowd it attracts and if it were not for certain elements of the crowd, it might be mistakable for any other station in any other system.`
+	description `Warnings of danger flash regularly and smaller signs make clear that they do not make any assurances of safety in this sector or any visitors aboard the station. Starwind station is impressively well-kempt despite the crowd it attracts and if it were not for certain elements of the crowd, it might be mistakable for any other station in any other system.`
 	spaceport `A bustling hub of interstellar activity, this station orbits gracefully amidst the otherwise empty backdoor of uncivilized space. It serves as a melting pot for traders, explorers, and the less than upstanding figures from all corners of the north.`
-	spaceport `The station hums with a vibrant energy as merchants passionately barter exotic goods, starship crews prepare for their next voyage, while station-bound security stand on all edges of the crowds. In some of the cozy cafes that offer a respite from the void, you can find the rare sight of relaxed pirate crews with all manner of archaic styles adorned across their persons, just living their lives.`
+	spaceport `The station hums with vibrant energy as merchants passionately barter exotic goods, starship crews prepare for their next voyage, while station-bound security stands on all edges of the crowds. In some of the cozy cafes that offer a respite from the void, you can find the rare sight of relaxed pirate crews with all manner of archaic styles adorned across their persons, just living their lives.`
+mission "Reavers: introduction [1]"
+	name `Being Introduced to the Reavers`
+	description `After rescuing a Reaver aligned ship, their crew invited you for a formal introduction to their cause.`
+	assisting
+	destination "Starwind"
+	on offer
+		conversation
+			`You prepare your crew for on-boarding the derelict vessel, there is life still detected on board so you will have to engage them if you wish to plunder their ship. Once attached and in position, your comms receive a partially obfuscated transmission from their ship requesting a comm link. You spend a short time pondering over whether to establish the link, it may be prudent to approach this situation diplomatically.`
+			choice
+				`	(Open link.)`
+				`	(Stay radio silent.)`
+					goto "silent"
+			`	The garbled initial transmission is not mirrored, as the newly linked systems allow for a definitively clear exchange with the opposing vessel. "Help us, please! We were intercepted by Syndicate police when we were flying through, they left us out here!" They plead for your assistance through assurances of innocence, it's difficult to believe their story but you have a choice to make regardless.`
+			choice
+				`	(Repair their ship.)`
+				`	(Plunder their ship.)`
+					decline
+				`	(Leave.)`
+					launch
+			label "repair"
+			action
+				"reputation: Reaver" = 1
+			`	Your conversation is short with their command crew as you pledge your help. The attached hatches open and under your instruction, both crews work to restore what systems they are able to. Few internal systems are damaged and the early estimation predicts a quick and successful rescue, with only non-vital systems deemed irreparable.`
+			`	Between work, someone in command of the other ship approaches you and confesses, "So your crew is going to find some weirder technology on our ship, that's not something we want to talk about. I do however want to admit that we're not exactly aligned with the typical governments."`
+			`	You think over their connotations before deciding to look past wherever their loyalties lie or who they align with, and they're pleased with your reaction. They reveal to you that they are still part of a larger group and offer to introduce you if you'd consider their cause.`
+			`	As repairs wrap up and you separate your ships, ready for departure, you consider their offer and mark them as a point of interest on your map.`
+				accept
+			label "silent"
+			`	A few minutes go by and they occasionally yet regularly repeat their call for help to you.`
+			choice
+				`	(Open link.)`
+					goto "repair"
+				`	(Leave.)`
+					launch
+	source
+		government "Reaver"
+mission "Reavers: introduction [2]"
+	landing
+	on offer
+		conversation
+			`You land on Starwind, the location you were given for the Reavers. No further instructions come to mind, all they offered was to introduce you and they didn't even give any descriptions of what you're meant to find or names of anyone to talk to.`
+			`	As soon as you can question why you came, your comms light up with a transmission. "Captain, your ship is marked for inspection. Please be ready for boarding." You're unsure of the last time your ship was boarded for inspection.`
+			choice
+				`	(Ready for boarding.)`
+				`	(Leave.)`
+					flee
+			`	Two men in non-descript and demode clothing board your ship and suddenly you realize your folly, you have scarce few moments to defend yourself.`
+			choice
+				`	(Dive behind cover!)`
+				`	(Charge them!)`
+			`	The moment you make your move it could all be over, unfortunately, they're wise to your plan and intercept.`
+			`	Men, both with guns raised towards you in one hand, each raise their free hand in a sign to pacify. On each of the men's palms raised towards you is a tattooed triangle with points on their base knuckles, pinky to the index to the thumb. "Don't try it, Captain! Good instincts but we're not here for a fight."`
+			`	"We've had your ship's signature on record from one of your rescues, your landing tripped our systems is all. If we can forgo fighting each other, we're only looking to make introductions with you to our cause."`
+			choice
+				`	"What's your cause?"`
+				`	"I'm sorry, I don't know what this is."`
+			`	They share a look and quickly one responds, "We're technically pirates, but not really. We fly under the Reavers and work for our people, only not just for ourselves like everyone thinks pirates behave."`
+			`	"We're not interested in when, but you once rescued a crew of ours and saved their lives. They referred you here and here we are to introduce you." You feel a little set upon by the situation but accept the outcome.`
+			`	You're led through the spaceport, into a construction area, and behind an inconspicuous entryway where you find yourself in a great hangar with several ships.`
+			`	Many workers rush around to seal scored hulls and scrub away the residue of weapons fire. You inquire further on the nature of their 'cause' and are stopped at the junction of intersecting walkways, "We're not entirely sure when the group formed, but it was born from the exploitation of workers within the Republic and what they saw as the regression of society. We have people to care for so they can advance culture and the sciences, we work for those types and sustain our open economy." they answer.`
+			choice
+				`	"And the piracy?"`
+			`	They are quick to respond, "Oh, that's an unfortunate staple of our society, we raid the corporations with misattributed resources because sharing the wealth is progressive to hoarding it for no real reason." The other man goes to interject, hesitates, but then adds, "I know it might rub you the wrong way that we align with pirates and actively engage in piracy."`
+			choice
+				`	"Not at all."`
+				`	"It does, I'll report this!"`
+					goto "report"
+			`	"Good, I was worried your sympathies were mistaken by the ones you rescued."`
+				goto "conclusion"
+			label "report"
+			`	"No one on this station will act in your interest if that's what you do, and we will scatter before you can involve anyone with real authority to act." They glance towards each other and both sigh before knocking you out.`
+			`	You wake up leaning against your ship on the landing pad with a pounding headache.`
+				decline
+			label "conclusion"
+			action
+				event "Reavers: starwind outfitter"
+			`	They take some time to give you a full tour of their facilities before leaving you to your devices. They have an outfitter with few exotic technologies but don't sell ships to outsiders.`
+	source "Starwind"
+	to offer
+		has "Reavers: introduction [1]: offered"
+event "Reavers: starwind outfitter"
+	planet "Starwind"
+		outfitter "Northern Explorers"
+		outfitter "Ammo North"
+		outfitter "Reavers basic"
+outfitter "Reavers basic"
+	"Emergency Ramscoop"
+	"Inhibitor Cannon"
+	"Outfit Scanner"
+	"Plasma Cannon"
+	"Pulse Rifle"
+	"Small Bunk Room"
+	"Value Detector"
