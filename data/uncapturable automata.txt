@@ -54,3 +54,11 @@ ship "Kar Ik Vot 349"
 	attributes
 		"self destruct" 0
 	uncapturable
+ship "Kar Ik Vot 637"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Kar Ik Vot 711"
+	attributes
+		"self destruct" 0
+	uncapturable
