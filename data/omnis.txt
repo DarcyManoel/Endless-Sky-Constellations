@@ -44,8 +44,8 @@ shipyard "constellations"
 	"Bennu"
 	"Kar Ik Vot 637"
 	"Kar Ik Vot 711"
-	"Model 8 (Disruptor)" #
-	"Model 8 (Minelayer)" #
+	"Model 8 (Disruptor)"
+	"Model 8 (Minelayer)"
 	"Quarg Drake"
 	"Quarg Hydra"
 	"Scud"
@@ -63,9 +63,9 @@ outfitter "human"
 shipyard "korath"
 	"Kar Ik Vot 637"
 	"Kar Ik Vot 711"
-shipyard "korathVariants"
-	"Model 8 (Disruptor)" #
-	"Model 8 (Minelayer)" #
+shipyard "korathVariantsAll"
+	"Model 8 (Disruptor)"
+	"Model 8 (Minelayer)"
 outfitter "korath"
 	"Shield Disruptor Gun"
 	"Vector Engine (Reality Class)"
