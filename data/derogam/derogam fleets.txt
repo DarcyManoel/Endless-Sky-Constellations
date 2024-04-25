@@ -74,13 +74,13 @@ fleet "Large Derogam Civilians"
 	variant 5
 		"Derogam Hoarder" 2
 
-fleet "Derogam Miners"
-	government "Derogam"
-	names "derogam civilian"
-	cargo 0
-	personality
-		confusion 25
-		timid mining harvests
+#fleet "Derogam Miners"
+#	government "Derogam"
+#	names "derogam civilian"
+#	cargo 0
+#	personality
+#		confusion 25
+#		timid mining harvests
 
 fleet "Small Derogam Armada"
 	government "Derogam Armada"
