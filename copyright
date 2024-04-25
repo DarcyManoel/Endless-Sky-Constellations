@@ -22,6 +22,54 @@ Copyright: bene_dictator (benstaples8068@gmail.com)
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>, Becca Tommaso (tommasobecca03@gmail.com), and Darcy Manoel
 
+Files: data/derogam/*
+Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
+License: GPL-3+
+
+Files:
+ images/icon/accelerator*
+ images/land/tbd*
+ images/outfit/accelerator pod*
+ images/outfit/accelerator torpedo*
+ images/outfit/blaze core*
+ images/outfit/cooling coil size 1*
+ images/outfit/cooling coil size 2*
+ images/outfit/cooling coil size 3*
+ images/outfit/ember core*
+ images/outfit/flame core*
+ images/outfit/healing core size 1*
+ images/outfit/healing core size 2*
+ images/outfit/healing core size 3*
+ images/outfit/inferno core*
+ images/outfit/magma core*
+ images/outfit/searing core*
+ images/planet/derogamgate*
+ images/projectile/accelerator torpedo*
+ images/ship/derogam assassin*
+ images/ship/derogam collector*
+ images/ship/derogam gatherer*
+ images/ship/derogam guardian*
+ images/ship/derogam hoarder*
+ images/ship/derogam itinerant*
+ images/ship/derogam sentry*
+ images/ship/derogam warrior*
+ images/ship/nekris predator*
+ images/thumbnail/derogam assassin*
+ images/thumbnail/derogam collector*
+ images/thumbnail/derogam guardian*
+ images/thumbnail/derogam hoarder*
+ images/thumbnail/derogam sentry*
+ images/thumbnail/derogam warrior*
+Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
+License: CC-BY-SA-4.0
+
+Files:
+ images/planet/derogamgate*
+ high?dpi/planet/derogamgate*
+Copyright: Darcy Manoel <Darcman00@gmail.com> <https://github.com/Darcman99> and Dennis van Anrooij <kiledenneus@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Base concept by Darcy, edited and finalized by Dennis.
+
 License: CC-BY-SA-4.0
 	By exercising the Licensed Rights (defined below), You accept and agree
 	to be bound by the terms and conditions of this Creative Commons
