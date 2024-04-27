@@ -3,7 +3,7 @@ category "outfit"
 	"Turrets"
 	"Secondary Weapons"
 	"Ammunition"
-	"Support"
+	"Support"			#	New
 	"Systems"
 	"Power"
 	"Engines"
