@@ -1,2 +1,0 @@
-government "Quarg"
-	remove atrocities
