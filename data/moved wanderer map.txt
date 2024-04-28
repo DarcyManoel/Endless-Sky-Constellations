@@ -3,13 +3,13 @@ system "Al Hurr"
 system "Almaaz"
 	pos -337 -503
 system "Alnilam"
-	pos -235 -472
+	pos -229 -551
 system "Ap'arak"
 	pos -157 -795
 system "Aya'k'k"
 	pos -234 -609
 system "Arneb"
-	pos -229 -551
+	pos -235 -472
 system "Chirr'ay'akai"
 	pos -97 -771
 system "Chy'chra"
