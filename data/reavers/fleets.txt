@@ -1,0 +1,7 @@
+fleet "Reaver"
+	government "Reaver"
+	names "pirate subphrase 1"
+	personality
+		plunders
+	variant
+		"Bennu"

@@ -1,0 +1,85 @@
+mission "Reavers: introduction 1"
+	assisting
+	source
+		government "Reaver"
+	on offer
+		conversation
+			`You prepare your crew for on-boarding the derelict vessel, there is life still detected on board. Once attached and in position, your comms receive a partially obfuscated transmission from their ship requesting a comm link. You spend a short time pondering over whether to establish the link, it may be prudent to approach this situation diplomatically.`
+			choice
+				`	(Open link.)`
+				`	(Stay radio silent.)`
+					goto "silent"
+			`	The garbled initial transmission is not mirrored, as the linked systems allow for a definitively clear exchange with the opposing vessel. "Help us, please! We were intercepted by Syndicate police when we were flying through, they left us out here!" They plead for your assistance through assurances of innocence, it's difficult to believe their story but you have a choice to make regardless.`
+			choice
+				`	(Repair their ship.)`
+				`	(Plunder their ship.)`
+					decline
+				`	(Leave.)`
+					launch
+			label "repair"
+			action
+				"reputation: Reaver" = 1
+			`	Your conversation is short with their command crew as you pledge your help. The attached hatches open and under your instruction, both crews work to restore what systems they are able to. Few internal systems are damaged and early estimations predict a quick and successful rescue, with only non-vital systems deemed irreparable.`
+			`	Between work, someone in command of the other ship approaches you and confesses, "So your crew is going to find some weirder technology on our ship, that's not something we want to talk about. I do however want to admit that we're not exactly aligned with the typical governments."`
+			`	You think over their connotations before deciding to look past wherever their loyalties lie or who they align with, and they're pleased that you do not take immediate issue with that. They reveal to you that they are part of a larger group of outcasts and offer to introduce you if you'd consider their cause.`
+			`	As repairs wrap up and you separate your ships, ready for departure, you consider their offer and mark their direction as a point of interest on your map.`
+				accept
+			label "silent"
+			`	A few minutes go by and they occasionally yet regularly repeat their call for help to you.`
+			choice
+				`	(Open link.)`
+					goto "repair"
+				`	(Leave.)`
+					launch
+	name `Introduction to the Reavers`
+	description `After rescuing a Reaver aligned ship, their crew invited you for a formal introduction to their cause.`
+	destination "Starwind"
+mission "Reavers: introduction 2"
+	landing
+	source "Starwind"
+	to offer
+		has "Reavers: introduction 1: offered"
+	on offer
+		conversation
+			`You land on Starwind, the location you were given for the Reavers. No further instructions come to mind, all they offered was to introduce you and they didn't even give any direction of where to look when you get here.`
+			`	Soon after you ask yourself why you came, your comms light up with a transmission. "Captain, your ship is marked for inspection. Please be ready for boarding." You're unsure of the last time your ship was boarded for inspection.`
+			choice
+				`	(Ready for boarding.)`
+				`	(Leave.)`
+					flee
+			`	Two men in non-descript and demode clothing board your ship and suddenly you realize your folly, you have scarce few moments to defend yourself.`
+			choice
+				`	(Dive behind cover!)`
+				`	(Charge them!)`
+			`	The moment you make your move it could all be over, unfortunately, they're wise to your plan and intercept.`
+			`	Men, both with guns raised towards you in one hand, each raise their free hand in a sign to pacify. On each of the men's palms raised towards you is a tattooed triangle with points on their knuckle bases, pinky to the index to the thumb. "Don't try it, Captain! Good instincts but we're not here for a fight."`
+			`	"We've had your ship's signature on record from one of your rescues, your landing tripped our systems is all. If we can avoid a fight, we're only looking to make introductions with you to our cause."`
+			choice
+				`	"What's your cause?"`
+				`	"I'm sorry, I don't know what this is."`
+			`	They share a look and quickly one responds, "Technically, we are pirates, but not as you'd expect. We fly under the Reavers clan and work only for our own people, though not just for ourselves like everyone believes."`
+			`	"We're not interested in when, but you once rescued a crew of ours and saved their lives. They would have referred you to come here and now we are to here introduce you." You feel a little set upon by the situation but accept the outcome.`
+			`	You're led through the spaceport, into a construction area, and behind an inconspicuous entryway where you find yourself in a great hangar with several ships.`
+			`	Many workers rush around to seal scored hulls and scrub away the residue of weapons fire. You inquire further on the nature of their 'cause' and are stopped at the junction of intersecting walkways, "We're not entirely sure when the group formed, but it was born from the exploitation of workers within the Republic and what they saw as the regression of society. We care for our people so that they can have a real, meaningful life, we work for those types and sustain our open economy." they answer.`
+			choice
+				`	"And the piracy?"`
+			`	They are quick to respond, "That's just necessary to keep ourselves going. We raid the corporations with more resources than morals, sharing the wealth is something we're not going to give them a choice in!" he finishes in a bout of showmanship. The other man goes to interject, hesitates, but then adds, "I know it might rub you the wrong way that we align with pirates and actively engage in piracy ourselves."`
+			choice
+				`	"Not at all."`
+				`	"It does, I'll report this!"`
+					goto "report"
+			`	"Good, your sympathies weren't mistaken by the ones you rescued."`
+				goto "conclusion"
+			label "report"
+			`	The first of the pair decides to handle this, with some sort of stoic disapproval "No one is on this station to help you, none of your cries will reach the governments." They glance towards each other and both sigh before stunning you to the ground. You hear some final words from the man before passing out, "Why couldn't you work with us here?"`
+			`	You wake up leaning against your ship on the landing pad with a pounding headache.`
+				decline
+			label "conclusion"
+			action
+				event "Reavers: starwind outfitter"
+			`	They take some time to give you a full tour of their facilities before leaving you to your devices. They have an outfitter with few exotic technologies but don't sell ships to outsiders like you.`
+event "Reavers: starwind outfitter"
+	planet "Starwind"
+		outfitter "Northern Explorers"
+		outfitter "Ammo North"
+		outfitter "Reavers basic"
