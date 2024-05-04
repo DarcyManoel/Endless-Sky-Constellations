@@ -78,9 +78,9 @@ mission "Irm: expanding business 2"
 	landing
 	source
 		government "Hai"
+		not planet "Allhome"
 	to offer
-		and
-			has "event: Irm: breaking ground"
+		has "event: Irm: breaking ground"
 	on offer
 		event "Irm: abandoned david" 14
 		conversation
