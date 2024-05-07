@@ -114,8 +114,8 @@ mission "Irm: expanding business 03"
 	destination "Arx"
 	on enter "Waypoint"
 		conversation
-			`The epitome of bewilderment paints David's face, he's almost in disbelief at what he sees once you enter the system. He was pretty confused for the few moments before you told him where to look, and yourself lead David to your Quantum Keystone that lies within the stabilizing casing that the Remnant gave to you. He cautiously approaches and asks various questions regarding what it is and what it does, you do your best to explain in detail your experience with the Keystones' odd new behavior.`
-			`	"This is Waypoint?" David asks rhetorically. After a silent moment, while you settle back into your cockpit, he asks, "Could you obtain more of those devices, that somehow reveals the ringworld? I don't want to get ahead of myself but I think this is exactly what the next step for the business looks like."`
+			`The epitome of bewilderment paints David's face, he's almost in disbelief at what he sees once you enter the system. He was pretty confused for the few moments before you told him where to look and you lead David to your augmented Quantum Keystone, courtesy of the Remnant. He cautiously approaches and asks various questions regarding what the extra equipment is and what it does, you do your best to explain in detail your experience with the Keystones' odd new behavior.`
+			`	"This is still Waypoint?" David asks rhetorically. After a silent moment, while you settle back into your cockpit, he asks, "Could you obtain more of those devices, that somehow reveals the ringworld? I don't want to get ahead of myself but I think this is exactly what the next step for the business looks like."`
 			`	With a promise that you'll try to get more, while you intentionally omit your source out of consideration for the Remnant, you know to visit the Remnant once more when you're done here.`
 			`	Complete your trip by taking David onto the ringworld.`
 mission "Irm: expanding business 04"
