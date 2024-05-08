@@ -1,0 +1,8 @@
+outfitter "Reavers basic"
+	"Emergency Ramscoop"
+	"Inhibitor Cannon"
+	"Outfit Scanner"
+	"Plasma Cannon"
+	"Pulse Rifle"
+	"Small Bunk Room"
+	"Value Detector"

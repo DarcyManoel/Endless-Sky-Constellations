@@ -1,0 +1,7 @@
+government "Reaver"
+	"player reputation" 1
+	"attitude toward"
+		"Syndicate" -1
+	"custom penalties for"
+		"Syndicate"
+			disable 0

@@ -1,0 +1,11 @@
+system "Moktar"
+	add fleet "Reaver" 4400
+system "Oblate"
+	add fleet "Reaver" 2200
+system "Danoa"
+	government "Independent"
+	add object "Starwind"
+		sprite "planet/station3c"
+			scale .5
+		distance 2406
+		period 508

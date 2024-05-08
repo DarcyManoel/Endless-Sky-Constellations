@@ -1,0 +1,8 @@
+planet "Starwind"
+	landscape "land/station9"
+	government "Independent"
+	attributes station north pirate
+	description `As an autonomous entity, the space station operates outside the jurisdiction of any large governing body, fostering a sense of independence and self-determination. It provides a distant neutral ground for diplomacy and commerce to take place.`
+	description `Danger warnings flash regularly and prominent disclaimers make clear that they do not make any assurances of safety in this sector or for any visitors aboard the station. Starwind station is impressively well-kempt despite the crowd it attracts and if it were not for certain elements of the crowd, it might be mistakable for any other station in any other system.`
+	spaceport `A bustling hub of interstellar activity, this station orbits gracefully amidst the otherwise empty backdoor of uncivilized space. It serves as a melting pot for traders, explorers, and some less than upstanding figures from all corners of the north.`
+	spaceport `The station hums with vibrant energy as merchants passionately barter with and for exotic goods, starship crews prepare for their next voyage, while station-bound security stand along all edges of the crowds. In some of the cozy cafes that offer a respite from the void, you can find the rare sight of relaxed pirate crews with all manner of archaic styles adorned across their persons, just living their lives.`

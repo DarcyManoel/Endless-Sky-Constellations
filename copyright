@@ -3,12 +3,15 @@ Upstream-Name: Endless Sky Constellations
 Upstream-Contact: Darcy Manoel <Darcman00@gmail.com>
 Source: -
 
-Files: *
-Copyright: Darcy Manoel <Darcman00@gmail.com>
-License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license).
+files: data/*
+Copyright: Darcy Manoel <darcman00@gmail.com>
+License: GPL-3+
 
-Files:
+files: data/derogam/*
+Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
+License: GPL-3+
+
+files:
  images/scene/ring*
 Copyright: Darcy Manoel <darcman00@gmail.com>
 License: CC-BY-SA-4.0
@@ -20,13 +23,9 @@ files:
  images/thumbnail/bennu*
 Copyright: bene_dictator (benstaples8068@gmail.com)
 License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>, Becca Tommaso (tommasobecca03@gmail.com), and Darcy Manoel
+Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>, Becca Tommaso (tommasobecca03@gmail.com), and Darcy Manoel <darcman00@gmail.com>
 
-Files: data/derogam/*
-Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
-License: GPL-3+
-
-Files:
+files:
  images/icon/accelerator*
  images/land/tbd*
  images/outfit/accelerator pod*
@@ -63,12 +62,17 @@ Files:
 Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
 License: CC-BY-SA-4.0
 
-Files:
+files:
  images/planet/derogamgate*
- high?dpi/planet/derogamgate*
-Copyright: Darcy Manoel <Darcman00@gmail.com> <https://github.com/Darcman99> and Dennis van Anrooij <kiledenneus@gmail.com>
+Copyright: Darcy Manoel <darcman00@gmail.com> <https://github.com/Darcman99> and Dennis van Anrooij <kiledenneus@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Base concept by Darcy, edited and finalized by Dennis.
+
+files:
+ images/outfit/keystoneStabiliser*
+Copyright: Koranir <daniel@yoon.com.au>
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
 
 License: CC-BY-SA-4.0
 	By exercising the Licensed Rights (defined below), You accept and agree

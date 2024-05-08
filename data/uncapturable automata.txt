@@ -38,13 +38,19 @@ ship "Met Par Tek 53"
 	attributes
 		"self destruct" 0
 	uncapturable
+ship "Met Par Tek 53 (Sniper)"
+	uncapturable
 ship "Tek Far 71 - Lek"
 	attributes
 		"self destruct" 0
 	uncapturable
+ship "Tek Far 71 - Lek (Close Quarters)"
+	uncapturable
 ship "Tek Far 78 - Osk"
 	attributes
 		"self destruct" 0
+	uncapturable
+ship "Tek Far 78 - Osk (Close Quarters)"
 	uncapturable
 ship "Tek Far 109"
 	attributes
@@ -53,6 +59,12 @@ ship "Tek Far 109"
 ship "Kar Ik Vot 349"
 	attributes
 		"self destruct" 0
+	uncapturable
+ship "Kar Ik Vot 349 (Defense)"
+	uncapturable
+ship "Kar Ik Vot 349 (Offense)"
+	uncapturable
+ship "Kar Ik Vot 349 (Trapper)"
 	uncapturable
 ship "Kar Ik Vot 637"
 	attributes
