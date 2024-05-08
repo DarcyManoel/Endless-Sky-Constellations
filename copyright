@@ -3,11 +3,13 @@ Upstream-Name: Endless Sky Constellations
 Upstream-Contact: Darcy Manoel <Darcman00@gmail.com>
 Source: -
 
-files: data/*
+files:
+ data/*
 Copyright: Darcy Manoel <darcman00@gmail.com>
 License: GPL-3+
 
-files: data/derogam/*
+files:
+ data/derogam/*
 Copyright: Dennis van Anrooij <kiledenneus@gmail.com>
 License: GPL-3+
 
