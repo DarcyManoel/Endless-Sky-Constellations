@@ -1,4 +1,4 @@
-mission "50k investment"
+mission "50k investment 1"
 	job
 	repeat
 	source
@@ -18,7 +18,27 @@ mission "50k investment"
 		"salary: Investment Dividends" += 14
 	on daily
 		fail
-mission "100k investment"
+mission "50k investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 50000
+		random < 20
+	name "Investment Opportunity! Tier 1"
+	description `Invest your hard earned money to work further for YOU! Investing 50 thousand credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -50000
+		"salary: Investment Dividends" += 14
+	on daily
+		fail
+mission "100k investment 1"
 	job
 	repeat
 	source
@@ -38,7 +58,27 @@ mission "100k investment"
 		"salary: Investment Dividends" += 28
 	on daily
 		fail
-mission "500k investment"
+mission "100k investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 100000
+		random < 25
+	name "Investment Opportunity! Tier 2"
+	description `Invest your hard earned money to work further for YOU! Investing 100 thousand credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -100000
+		"salary: Investment Dividends" += 28
+	on daily
+		fail
+mission "500k investment 1"
 	job
 	repeat
 	source
@@ -58,7 +98,27 @@ mission "500k investment"
 		"salary: Investment Dividends" += 137
 	on daily
 		fail
-mission "1m investment"
+mission "500k investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 500000
+		random < 33
+	name "Investment Opportunity! Tier 3"
+	description `Invest your hard earned money to work further for YOU! Investing 500 thousand credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -500000
+		"salary: Investment Dividends" += 137
+	on daily
+		fail
+mission "1m investment 1"
 	job
 	repeat
 	source
@@ -78,7 +138,27 @@ mission "1m investment"
 		"salary: Investment Dividends" += 274
 	on daily
 		fail
-mission "10m investment"
+mission "1m investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 1000000
+		random < 50
+	name "Investment Opportunity! Tier 4"
+	description `Invest your hard earned money to work further for YOU! Investing 1 million credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -1000000
+		"salary: Investment Dividends" += 274
+	on daily
+		fail
+mission "10m investment 1"
 	job
 	repeat
 	source
@@ -98,7 +178,27 @@ mission "10m investment"
 		"salary: Investment Dividends" += 2740
 	on daily
 		fail
-mission "50m investment"
+mission "10m investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 10000000
+		random < 33
+	name "Investment Opportunity! Tier 5"
+	description `Invest your hard earned money to work further for YOU! Investing 10 million credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -10000000
+		"salary: Investment Dividends" += 2740
+	on daily
+		fail
+mission "50m investment 1"
 	job
 	repeat
 	source
@@ -118,7 +218,27 @@ mission "50m investment"
 		"salary: Investment Dividends" += 13699
 	on daily
 		fail
-mission "100m investment"
+mission "50m investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 50000000
+		random < 25
+	name "Investment Opportunity! Tier 6"
+	description `Invest your hard earned money to work further for YOU! Investing 50 million credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -50000000
+		"salary: Investment Dividends" += 13699
+	on daily
+		fail
+mission "100m investment 1"
 	job
 	repeat
 	source
@@ -138,7 +258,47 @@ mission "100m investment"
 		"salary: Investment Dividends" += 27398
 	on daily
 		fail
-mission "500m investment"
+mission "100m investment 2"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 100000000
+		random < 20
+	name "Investment Opportunity! Tier 7"
+	description `Invest your hard earned money to work further for YOU! Investing 100 million credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -100000000
+		"salary: Investment Dividends" += 27398
+	on daily
+		fail
+mission "500m investment 1"
+	job
+	repeat
+	source
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 500000000
+		random < 10
+	name "Investment Opportunity! Tier 8"
+	description `Invest your hard earned money to work further for YOU! Investing 500 million credits with us will guarantee a return on your investment within 10 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -500000000
+		"salary: Investment Dividends" += 136987
+	on daily
+		fail
+mission "500m investment 2"
 	job
 	repeat
 	source
