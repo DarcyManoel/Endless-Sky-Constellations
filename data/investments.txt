@@ -2,6 +2,7 @@ mission "50k investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -23,6 +24,7 @@ mission "50k investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -44,6 +46,7 @@ mission "100k investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -65,6 +68,7 @@ mission "100k investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -86,6 +90,7 @@ mission "500k investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -107,6 +112,7 @@ mission "500k investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -128,6 +134,7 @@ mission "1m investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -149,6 +156,7 @@ mission "1m investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -170,6 +178,7 @@ mission "10m investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -191,6 +200,7 @@ mission "10m investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -212,6 +222,7 @@ mission "50m investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -233,6 +244,7 @@ mission "50m investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -254,6 +266,7 @@ mission "100m investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -275,6 +288,7 @@ mission "100m investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -296,6 +310,7 @@ mission "500m investment 1"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -317,6 +332,7 @@ mission "500m investment 2"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
@@ -338,6 +354,7 @@ mission "withdraw investments"
 	job
 	repeat
 	source
+		attributes "urban"
 		government
 			"Free Worlds"
 			"Hai"
