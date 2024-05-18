@@ -1,5 +1,6 @@
 #	Outfits
 outfit "Knockout Gas"
+	plural "Cases of Knockout Gas"
 	"capture attack" 2.2
 	"capture defense" 1.2
 	category "Hand to Hand"
@@ -7,6 +8,5 @@ outfit "Knockout Gas"
 	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
 	licenses
 		"Navy"
-	plural "Gas Canisters"
 	thumbnail "outfit/knockoutGas"
 	unplunderable 1
