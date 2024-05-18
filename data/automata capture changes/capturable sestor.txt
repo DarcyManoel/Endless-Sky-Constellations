@@ -1,0 +1,79 @@
+#	Self destruct overrides
+ship "Far Lek 14"
+	attributes
+		"self destruct" 0
+ship "Far Osk 27"
+	attributes
+		"self destruct" 0
+ship "Tek Far 71 - Lek"
+	attributes
+		"self destruct" 0
+ship "Tek Far 78 - Osk"
+	attributes
+		"self destruct" 0
+ship "Tek Far 109"
+	attributes
+		"self destruct" 0
+ship "Kar Ik Vot 349"
+	attributes
+		"self destruct" 0
+ship "Kar Ik Vot 637"
+	attributes
+		"self destruct" 0
+ship "Kar Ik Vot 711"
+	attributes
+		"self destruct" 0
+#	Interference device
+outfit "interference test"
+	category "Systems"
+#	Boarding mission
+mission "board sestor"
+	boarding
+	repeat
+	source
+		government "Kor Sestor"
+	on offer
+		conversation
+			branch "interfere"
+				has "outfit (flagship installed): interference test"
+			`When preparing to board the derelict ship, your sensors detect the triggering of a self-destruct mechanism. You weigh the facts of the situation, and your lowered shields paired with the imminent destruction of the derelict in close proximity puts you in a vulnerable situation.`
+			`	Your shields automatically re-engage near-instantaneously and your ship evades brunting the full force of the explosion.`
+			`	(You have failed this boarding action.)`
+				flee
+			label "interfere"
+			`You're preparing to board the derelict ship and you engage the interference projector before making physical contact.`
+			`	Everything is quiet, only the hum of your ship fills the space while giving due time to be sure that there will not be an explosion from the derelict ship. Time slowly passes but you know that even though the ships destruction may not be triggered by your boarding of the immobile ship, it's a poor decision to keep the components responsible for self-destruction armed.`
+			`	Your crew tentatively stand at the ready behind bulkheads in any case. A short time passes before they're given the order to proceed. Thankfully, your hesitation in boarding was in vain.`
+			`	(You should find a way to permanently eliminate the threat of the ship self-destructing if you would like to plunder or capture this ship.)`
+			choice
+				`	(Prevent the consequences of triggering a self-destruction.)`
+					goto "prevent"
+				`	(Disable the trigger for self-destruction.)`
+					goto "disable"
+			label "prevent"
+			`	Some of your crew suggest to disconnect the power source so it can't overload before the self-destruction trigger can be identified and removed, others suggest to abandon the derelict to space.`
+			choice
+				`	(Disconnect the power source.)`
+				`	(Abandon ship.)`
+					flee
+			`	You instruct your crew to disconnect the power source, hedging your bet that it would be the likely component to facilitate an absolute destruction of the ship.`
+			branch "triggerReactor"
+				random < 30
+			`	Through tense moments of bated breath, the power source is successfully disconnected from any external components. You can't be sure if there was any danger in this action, but your crew is relieved in any case.`
+				decline
+			label "disable"
+			``
+				decline
+			label "triggerReactor"
+			`	Whether through poor work by your crew or if it were an unavoidable outcome of tampering, the reactor powers on and the tight confines of your access quickly heat to an excruciating degree. The few geiger counters in possession of your team begin to scream out their location as the radiation in the corridor rapidly reaches catastrophic levels. You and the crew you brought along are spared of suffering the heat and radiation because the last thing to fill the room is the crushing pressure of the shockwave preceding a final explosion.`
+			`	This boarding action was ultimately a failure resulting in the death of you and those around you.`
+			choice
+				`	<reload to beginning>`
+					goto "interfere"
+				`	<reload and abandon ship>`
+					flee
+	destination "Earth"
+#
+system "Durax"
+	fleet "Large Kor Sestor" 2000
+#
