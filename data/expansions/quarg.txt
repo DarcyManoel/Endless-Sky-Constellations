@@ -111,7 +111,7 @@ ship "Quarg Drake"
 		"cargo space" 60
 		"engine capacity" 120
 		"fuel capacity" 1200
-		"heat dissipation" .6
+		"heat dissipation" .33
 		"hull energy" 3
 		"hull repair rate" 3
 		"outfit scan power" 81
@@ -121,9 +121,9 @@ ship "Quarg Drake"
 		bunks 70
 		category "Interceptor"
 		cost 33960000
-		drag 10.8
+		drag 12.8
 		hull 40000
-		mass 260
+		mass 520
 		ramscoop 10
 		shields 110000
 		weapon
@@ -165,7 +165,7 @@ ship "Quarg Hydra"
 		"cargo space" 40
 		"engine capacity" 130
 		"fuel capacity" 1000
-		"heat dissipation" .4
+		"heat dissipation" .3
 		"hull energy" 8
 		"hull repair rate" 8
 		"outfit space" 820
@@ -174,9 +174,9 @@ ship "Quarg Hydra"
 		bunks 235
 		category "Medium Warship"
 		cost 82441000
-		drag 9.2
+		drag 17.2
 		hull 90000
-		mass 610
+		mass 1110
 		ramscoop 10
 		shields 220000
 		weapon

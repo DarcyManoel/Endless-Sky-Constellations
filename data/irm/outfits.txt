@@ -46,13 +46,13 @@ outfit "Tekina Engine"
 	mass 39
 	"outfit space" -39
 	"engine capacity" -39
-	thrust 29.5
+	thrust 44.25
 	"thrusting energy" 2.2
 	"thrusting heat" 1.8
 	"reverse thrust" 22.125
 	"reverse thrusting energy" 1.65
 	"reverse thrusting heat" 2.4
-	turn 580
+	turn 870
 	"turning energy" 1.4
 	"turning heat" 1
 	category "Engines"

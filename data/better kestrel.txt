@@ -8,9 +8,9 @@ ship "Kestrel"
 		"hull" 16200
 		"required crew" 64
 		"bunks" 128
-		"mass" 740
-		"drag" 11
-		"heat dissipation" .6
+		"mass" 2135
+		"drag" 20.9
+		"heat dissipation" .32
 		"fuel capacity" 700
 		"cargo space" 120
 		"outfit space" 900
@@ -23,7 +23,7 @@ ship "Kestrel"
 			"hit force" 3900
 ship "Kestrel" "Kestrel (More Engines)"
 	add attributes
-		"drag" -2
+		"drag" -4
 		"engine capacity" 55
 		"fuel capacity" 300
 ship "Kestrel" "Kestrel (More Shields)"
@@ -33,7 +33,7 @@ ship "Kestrel" "Kestrel (More Shields)"
 		"shields" 28000
 ship "Kestrel" "Kestrel (More Weapons)"
 	add attributes
-		"drag" -1
+		"drag" -2
 		"fuel capacity" 100
 		"weapon capacity" 150
 	gun -75 57 "Torpedo Launcher"

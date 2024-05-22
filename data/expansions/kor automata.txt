@@ -148,10 +148,10 @@ outfit "Vector Engine (Reality Class)"
 	mass 198
 	"outfit space" -198
 	"engine capacity" -198
-	thrust 222.9
+	thrust 334.35
 	"thrusting energy" 28.7
 	"thrusting heat" 61.6
-	turn 4266
+	turn 6399
 	"turning energy" 13.7
 	"turning heat" 34.2
 	"flare sprite" "effect/korath flare/huge"
@@ -190,16 +190,16 @@ ship "Kar Ik Vot 637"
 		"cargo space" 63
 		"engine capacity" 211
 		"fuel capacity" 600
-		"heat dissipation" .45
+		"heat dissipation" .23
 		"outfit space" 1239
 		"self destruct" .8
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
 		cost 44130000
-		drag 24.6
+		drag 42.6
 		hull 67400
-		mass 1850
+		mass 4250
 		ramscoop 3
 		shields 82900
 		weapon
@@ -264,16 +264,16 @@ ship "Kar Ik Vot 711"
 		"cargo space" 56
 		"engine capacity" 261
 		"fuel capacity" 700
-		"heat dissipation" .4
+		"heat dissipation" .21
 		"outfit space" 1461
 		"self destruct" .8
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
 		cost 47550000
-		drag 30.6
+		drag 48.6
 		hull 82100
-		mass 2410
+		mass 4710
 		ramscoop 3
 		shields 88400
 		weapon

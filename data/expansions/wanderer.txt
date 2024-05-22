@@ -17,10 +17,10 @@ outfit "Type 0 Radiant Engine"
 	mass 14
 	"outfit space" -14
 	"engine capacity" -14
-	thrust 8.3
+	thrust 12.45
 	"thrusting energy" 0.46
 	"thrusting heat" 0.5
-	turn 242
+	turn 363
 	"turning energy" 0.46
 	"turning heat" 0.84
 	cooling 1.9
@@ -34,17 +34,17 @@ outfit "Type 0 Radiant Engine"
 ship "Scud"
 	attributes
 		"engine capacity" 17
-		"heat dissipation" .7
+		"heat dissipation" .66
 		"outfit space" 61
 		"weapon capacity" 29
 		automaton 1
 		category "Drone"
 		cost 980000
-		drag .6
+		drag .7
 		hull 3900
 		licenses
 			"Wanderer"
-		mass 41
+		mass 49
 		weapon
 			"blast radius" 10
 			"hit force" 250
