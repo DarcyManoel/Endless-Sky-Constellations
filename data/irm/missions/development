@@ -56,7 +56,7 @@ mission "Irm: test Ospora [1a]"
 			label "expedition"
 			action
 				outfit "Ospora Habitation Cooler (non-spacious)" 1
-			`	You make your travel arrangements with Cassipeau, which the advisor's name, as revealed during some continued conversation. The replicated cooling system gets installed onto your ship, ready to be tested.`
+			`	You make your travel arrangements with Cassipeau, which is the advisor's name, as revealed during some continued conversation. The replicated cooling system gets installed onto your ship, ready to be tested.`
 			`	"So the plan is to travel south, stop on Zug in the Free Worlds, and then make our way back here," she reiterates to you once aboard your ship.`
 			`	After a hesitant pause, she then offers, "Unless you wanted to show me something special."`
 				to display
