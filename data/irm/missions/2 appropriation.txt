@@ -59,7 +59,7 @@ mission "Irm: expanding business 01"
 				has "First Contact: Korati Efreti: offered"
 			branch "arx"
 			label "wanderer"
-			`	"North of the Hai there is a species of bird-like nomads, who travel through wormholes to repair broken worlds. Is terraforming a viable business to pursue?" He hesitates momentarily, again, "That's a curious path to take, and a lot to take in. Terraforming isn't a direction I'm particularly interested in, we also don't have the scale for that level of investment. What else can you tell me?"`
+			`	"North of the Hai there is a species of bird-like nomads, who travel through wormholes to repair broken worlds. Is terraforming a viable business to pursue?" He hesitates momentarily.  "That's a curious path to take, and a lot to take in. Terraforming isn't a direction I'm particularly interested in, we also don't have the scale for that level of investment. What else can you tell me?"`
 			`	"Well the Unfettered Hai found a way to invade the nomads in the north, the Wanderers. The Wanderers are fighting a war but only so that they have time to retreat through a wormhole that's opened in their territory, unfortunately, they retreated to a much more dangerous place." Dumbfounded as he is, he finds the words to say, "There truly is a whole live galaxy out there, it's hard to imagine any of this from within the confines of our space."`
 			label "korath"
 			`	You fall into the conversation in clear neglect of each of your meals, and you start to explain about the Korath, "Beyond Hai space towards the galactic core there are two warring factions of automated warships. They're still stuck in their original programming to construct more of their drones until they wipe the other out, but they also indiscriminately open fire on any foreign ship."`
@@ -127,10 +127,10 @@ mission "Irm: expanding business 04"
 	on offer
 		conversation
 			`You set your ship down atop a rocky outcrop overlooking a great lake, all the stone in sight is covered in a thick moss blanket that could be mistaken for grand forests from above. The atmosphere outside your ship is breathable but a touch rich. The moss is easily traversable on the surface because below the soft fuzzy exterior, it holds an incredibly tough composition, unable to be broken through without tools.`
-			`	"It looks like we have the opportunity to establish our station here, and possibly even maintain a colony under our purview." David says, then taking a breath before his next statement, "On a ring like the Quarg own... if I were young again I'd need you to pinch me."`
+			`	"It looks like we have the opportunity to establish our station here, and possibly even maintain a colony under our purview," David says, taking a breath before his next statement. "On a ringworld like the Quarg own... if I were young again I'd need you to pinch me."`
 			choice
 				`	"Should we return to Greenwater?"`
-			`	"Yes, I've taken enough time away now, but I won't be able to shake what I've seen here." David tells you while walking back into your ship.`
+			`	"Yes, I've taken enough time away now, but I won't be able to shake what I've seen here," David tells you while walking back into your ship.`
 				accept
 	name "Return David to Greenwater"
 	description `You've taken David to see your discovery first hand, and landed down on Arx with him. Now drop him back off on Greenwater in Hai space so he can discern where to go from here.`
@@ -220,7 +220,7 @@ mission "Irm: expanding business 08"
 				`	"How do you expect to not be found out?"`
 					goto "secret"
 			`	"I have ambitions now to form a base of operations in this system, to bring the company into new heights of unimpeded progress. It's not necessarily about the money we make but we can make something real here, of course with a tidy profit to keep things on track but that's how things get done." His demeanor is no more serious than before but there is a certain gravity behind his words, this may also be your opportunity to build something for yourself and not operate only to navigate other people's messes.`
-			`	You ask David a question that is integral to the outcome of his plans, "How do you expect to keep this secret from the Hai, or humanity, or even the Quarg?"`
+			`	You ask David a question that is integral to the outcome of his plans. "How do you expect to keep this secret from the Hai, or humanity, or even the Quarg?"`
 			label "secret"
 			`	David huffs, amused at the potential scope of his upcoming difficulties, "I don't know <first>, for now, I'd like to only worry about this stage. You can stay here with us while we wait for the ship to arrive for further action, if you'd like."`
 			choice
@@ -362,7 +362,7 @@ mission "Irm: Magni Port 1"
 			`	"We can get to that later, I am really excited to bring you to up to speed." he says, dismissive of your interest.`
 				goto "help"
 			label "people"
-			`	"We need more manpower if we are to make progress. I understand your point though, we need to maintain a certain level of secrecy about our operation. At least until we can back our claim to the system." David looks at you puzzled, as if forgetting something, "We are to stay here of course. I hope to rely on you if alternatives have been exhausted."`
+			`	"We need more manpower if we are to make progress. I understand your point though, we need to maintain a certain level of secrecy about our operation. At least until we can back our claim to the system." David looks at you puzzled, as if forgetting something. "We are to stay here of course. I hope to rely on you if alternatives have been exhausted."`
 			choice
 				`	"What do you expect me to do exactly?"`
 				`	"Of course, I expected you to make the most of this opportunity."`
@@ -375,7 +375,7 @@ mission "Irm: Magni Port 1"
 			`	David persists, adamant that the Quarg should know, and you are sent on your way. You could pretend to have asked the Quarg if you wanted, but why go against David now?`
 				accept
 	name "Petition the Quarg"
-	description `David is wary about the Quarg, insisting that you should inform them about your venture before they discover it for themselves. Any warning that the Quarg might offer you is important too. David assures you as much.`
+	description `David is wary about the Quarg, insisting that you should inform them about your venture before they discover it for themselves. Any warning that the Quarg might offer you is important too; David assures you.`
 	destination "Alta Hai"
 mission "Irm: Magni Port 2"
 	landing
@@ -417,8 +417,8 @@ mission "Irm: Magni Port 3"
 	on offer
 		conversation
 			`You're met by David as you come to a landing. He must have noticed your ship arriving and anticipated hearing about your interactions with the Quarg.`
-			`	He looks well rested, better than last you saw him. You say to him, "I met with the Quarg." David stands stern, confident. You tell him all about the Quarg's irreverence, or interest, noting that it's completely in character for the Quarg to leave you befuddled. David is particularly relieved that the Quarg's warning is presumably only regarding human piracy, a concern that David admits to being worried about himself in the beginning.`
-			`	A message on David's communicator reports that two Quarg Wardragons have entered the system. Hastily, he rushes off but before he leaves you on your own, he turns back and hurries you to take him to meet them in space.`
+			`	He looks well rested, better than last you saw him. You say to him, "I met with the Quarg." David stands stern, confident. You tell him all about the Quarg's irreverence, or interest, noting that it's completely in character for the Quarg to leave you befuddled. David is particularly relieved that the Quarg's warning is presumably only regarding human piracy, a concern that David admits to being worried about himself since the beginning.`
+			`	A message on David's communicator reports that two Quarg Wardragons have entered the system. He hastily calls you to meet him at your ship and meet them.`
 				launch
 	on enter "Waypoint"
 		conversation
@@ -475,7 +475,7 @@ mission "Irm: Magni Port 5"
 			`	"Much of the technology here is well beyond human standards as was always a reasonable assumption. We've even found shipbound technologies, such as engine units fitting fighter models." David is eager to discuss the technology that his teams have unearthed but it's apparent that he means to push past this early stage of the operation.`
 			`	"Do you need any help?" you ask, cutting to the point.`
 			label "help"
-			`	"Not me personally, but of course we need help throughout the entire operation. I'm currently not as involved with the specifics of any one area, but we have two major departments here, one being development and one logistics." David seldom lacks an offer for work, but he may at least point you in the right direction.`
+			`	"Not me personally, but of course we need help throughout the entire operation. I'm currently not as involved with the specifics of any one area, but we have two major departments here; being development and logistics." David seldom lacks an offer for work, but he may at least point you in the right direction.`
 			`	You're taken for an introduction to the development team, but unfortunately are not able to be given one, "They seem to be out for now, but you'll recognize some of the faces in there. Our two chief advisors from that first meeting you attended are the heads of the team, in the face of our current focus to explore the interior structure."`
 			`	Without being prompted for their qualifications, David assures you that they both have highly accomplished backgrounds in the sciences. You suppose it's good to know things are being handled by the professionals.`
 			`	"The more crucial operations lie with the logistics team though. Any material we need, or food and drink especially, needs to come from somewhere and we have convoys on a rotating basis to deliver us what is needed through the facade of the company on Greenrock. If you want something to do, you can talk to a port team supervisor to cover a logistics request."`
