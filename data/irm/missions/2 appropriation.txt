@@ -183,7 +183,7 @@ mission "Irm: expanding business 07"
 	on offer
 		event "Irm: delivered stabilizers"
 		dialog
-			`"Captain, this is Turner Inc. passing on a message from Mr. Turner." You assume that to be a receptionist's greeting, it ends more abruptly than you expect.`
+			`"Captain, this is Turner Inc. passing on a message from Mr. Turner." You assume that to be a receptionist's greeting, because it ends more abruptly than you would expect.`
 			`A short audio message was transmitted to you with the preamble, "<first>, this is David, please meet me on the ringworld, you'll find the way."`
 	name "Checking in with David"
 	description `You were transmitted a recording from David Turner requesting you to make your way to Arx. Given your de-facto partnership, you should do your best to stay in the loop.`
