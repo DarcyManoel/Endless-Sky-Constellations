@@ -118,7 +118,7 @@ mission "Irm: test Ospora [2b]"
 		event "Irm: Ospora sale" 90
 		conversation
 			`You bring your ship for landing at the spaceport and to your surprise, Cassipeau has already darted out of the cockpit towards exiting the ship. Finishing the landing checks, you head over to the research department to conclude your business.`
-			`	Luckily, this is where she ended up and she notices you by the entrance. "Thank you so much for your help <first>. Not only did we get the data we need, which by the way looks very promising, but I also didn't realize how much I'd needed to get off-world." she says, seemingly renewed from the tense exterior she had the day you initiated this journey.`
+			`	Luckily, this is where she ended up and she notices you by the entrance. "Thank you so much for your help, <first>. Not only did we get the data we need, which looks very promising, but I also didn't realize how much I'd needed to get off-world." she says, seemingly renewed from the tense exterior she had the day you initiated this journey.`
 			`	On the walk back to your ship, you receive payment of <payment>, addressed from Magni Port. It seems the spaceport on Arx has garnered a new name.`
 	on offer
 		dialog
