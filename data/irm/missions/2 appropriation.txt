@@ -66,7 +66,7 @@ mission "Irm: expanding business 01"
 			`	"This only reinforces my desire to stay in the safety of our territories then, what opportunity would that war afford us anyway?" he casually inserts with a chuckle between breaths. After a moment you start to continue what you were saying, "There's a trove of salvage out there in even their most fringe systems. The scrap and technology you could recover could be invaluable to your interests." He seems none too amused with the suggestion, before beginning a short tangent on the logistics of preparing for the danger in that region. Not even accounting for the risk it presents to the lives of whoever is sent there to protect the operation. He asks you, "Think bigger picture! How can we reinvent the business and put ourselves on the map?"`
 			label "arx"
 			choice
-				`	"Have you thought about relocating the business into Free space?"`
+				`	"Have you thought about relocating the business into unoccupied space?"`
 			`	He perks up almost comically as he hears the suggestion, you sit unsure if his response is positive or negative. "<first>, that's brilliant! I planned to operate from an orbital station when I first came into money, the capital needed was still magnitudes more than what was available to me but now, it's a clear next step! We have the infrastructure on the ground already to ensure our funding."`
 			`	It's difficult to find a juncture into the conversation, but you decide against it on second thought, doubtful that he would notice you talking back. His mouth is running so fast you almost expect him to lose the words.`
 			`	"Captain, I must know what you had in mind!"`
