@@ -35,7 +35,7 @@ mission "Irm: resonance 2"
 			`You're walking through the bustling docks of the port, with ships arriving and departing in such haste that there's hardly a moment to appreciate skies clear of air traffic. Remnant ports seem to be some of the busiest you find yourself in, despite their cultural isolation.`
 			`	Not long after finding yourself in the spaceport of <planet>, you're approached by a pair of who you assume to be security personnel.`
 			`	"Hello captain, is the <ship> under your command?" they ask you in a rather friendly manner, and you confirm that it is, "We've been asked to escort you to our outfitters, as a matter of urgency."`
-			`	You're led by security to the outfitters and are greeted promptly by a technician with comically large tinted goggles. Your escorts stop and tell the man; "Here is the captain of the <ship>, We'll leave them in your hands now." before walking away from the pair of you.`
+			`	You're led by security to the outfitters and are greeted promptly by a technician with comically large tinted goggles. Your escorts stop and tell the man; "Here is the captain of the <ship>, we'll leave them in your hands now." before walking away from the pair of you.`
 			`	"I'll make this quick, you're not in trouble. We noticed on your arrival, an abnormality in your Keystone that I believe I can help you with. We occasionally run into a similar problem during the 'Ion Storms' we encounter in the region, we have a relatively non-intrusive augmentation for the Keystones that remove unsafe levels of resonant build-up and I have to insist that you allow us to install it for you."`
 			choice
 				`	"You insist? Well sure, if it's so important."`
@@ -225,7 +225,7 @@ mission "Irm: resonance 3"
 		not "Irm: resonance 2: offered"
 	on offer
 		conversation
-			`Touching down within one of Alta Hais hangers is second in ease only to an outdoor landing pad. You stand still once outside your ship, hanging on the sight of the massive hanger stretching into the distance but shake the feeling before long.`
+			`Touching down within one of Alta Hai's hangars is second in ease only to an outdoor landing pad. You stand still once outside your ship, hanging on the sight of the massive hanger stretching into the distance but shake the feeling before long.`
 			`	One of the Quarg of a small group standing beside the doorway out of the hanger breaks off from their discussion to speak to you, "Hello merchant, your ship is auraed, I can see it."`
 			choice
 				`	"What are you talking about?"`
@@ -241,7 +241,7 @@ mission "Irm: resonance 3"
 			`	"The Hai cannot rid Waypoint of the Irm, for what they don't understand, remains present." The answer is as vague as it is worrisome, so you try to disregard it as best you can.`
 			`	You shift topics back to the crystal, "What does the station do to the crystal?"`
 			label "damage"
-			`	"They can alter the crystal, collect charge. No harm should come to you, but the Hai rumor that the station reverses the good luck from the crystals." The Quarg describes, gradually telling more sensible tales.`
+			`	"They can alter the crystal, collect charge. No harm should come to you, but the Hai rumor that the station reverses the good luck from the crystals," the Quarg describes, gradually telling more sensible tales.`
 			choice
 				`	"What really happens to the crystals?"`
 				`	"Do I need to worry?"`
@@ -267,7 +267,7 @@ mission "Irm: resonance 4"
 			`You know you're not going crazy, but you feel close to it.`
 			`	There was not a ringworld in this system previously. The Quarg surely would not build another so close to their own, and neither Human nor Hai technology is capable of this feat. Obviously in any case, there is no possibility that this was constructed from start to finish within your lifetime.`
 			`	Without the ability to rationalise this event, yet with all technology available to you and your own eyes suggesting the reality of it, you're forced to come to terms with the phenomenon.`
-			`	The Quarg may offer some insight.`
+			`	The Quarg may be able to offer some insight.`
 				to display
 					has "First Contact: Quarg: offered"
 					not "Irm: resonance 3: offered"

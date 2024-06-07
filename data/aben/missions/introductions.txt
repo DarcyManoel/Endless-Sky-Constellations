@@ -5,7 +5,7 @@ mission "Aben: first contact 1"
 	on offer
 		conversation
 			`On the descent down to the city, the stature of a central spire leaves a great feeling of awe. The buildings below all shimmer in the intense glare of the sun, only letting up when swarmed with the many air vehicles that traverse the lower airspace.`
-			`	The pinnacle of the spire is a sudden cut from the gentle slope of the rest of the tower, out from the epicenter reaches another massive structure into the sky with lifts often running up and down the cord. The space elevator as you failed to notice before flying down to the planet, is an impressive feat that paints a picture of an advanced alien race but not enough to have developed anti-gravity repulsors.`
+			`	The pinnacle of the spire is a sudden cut from the gentle slope of the rest of the tower, out from the epicenter reaches another massive structure into the sky with lifts often running up and down the cord. The space elevator, as you failed to notice before flying down to the planet, is an impressive feat that paints a picture of an powerful alien race not quite advanced enough to have developed anti-gravity repulsors.`
 			`	After an almost embarrassingly long search, you find on the outskirts of the city a dozen almost identical complexes with fortified structures to hold in place large stone slabs, which must serve as landing zones. You are met by a party of four aliens; two of which are subtly armor-clad guards with imposing physicality, and two unclothed figures of same heights follow, who are adorned by a metallic sheen of decor strung from their necks which thin to many tentacled points atop their shoulders. These aliens are very obviously human-like with few striking omissions, meeting the unclothed two would be made more uncomfortable only if they bore genitalia like humans do, they also are completely hairless as far as you can see and have no noses.`
 			`	Some awkward moments of failed communication on your part follow, when the one on the left grabs the hand of the other and clasps them together, they then seemingly have a slow conversation with each other of back and forth grunts and hums. The conversation between the two gradually becomes primitively understandable to you, they soon turn to greet you and the smaller one speaks.`
 			`	"We are Aben, Human."`
@@ -15,7 +15,7 @@ mission "Aben: first contact 1"
 			`	"Humans were here, they gift us examples of language in electric machines." It is a slow deliberate exercise for them, with longer pauses between phrases and an uncomfortable progression through their speech.`
 			choice
 				`	"How long ago was that?"`
-				`	"Am I allowed to land my ship here."`
+				`	"Am I allowed to land my ship here?"`
 					goto "land"
 			`	They shoot a glance to the other, who you swear you just saw shrug, "Humans visit often, saying we are a peaceful place to be." A silent moment ensues between everyone before they continue with another comment, "Humans come here in different skins, dark and bright and loud."`
 			choice
@@ -43,9 +43,9 @@ mission "Aben: first contact 2"
 #		event "Aben: nis outfitter"
 		conversation
 			`Thinking back to your last encounter here, exhaustion quickly creeps over as you remember how untenable your communication efforts were. Still, there's a lot to explore in this world and they were welcoming enough the first time around.`
-			`	Docking near the very end of the space elevator tether, but below the counterweight, you're surprised to have found a hanger to maneuver into. A lone alien meets you as you leave your ship, "Hello, Human, is it?"`
+			`	Docking near the very end of the space elevator tether, but below the counterweight, you're surprised to have found a hanger to maneuver into. A lone alien meets you as you leave your ship, "Hello. Human, is it?"`
 			choice
-				`	"Hello, yes that's right."`
+				`	"Hello, and yes that is correct."`
 				`	"You speak my language too?"`
 			`	"Yes, okay. Many are trained to talk with outsiders but please forgive me if there is a misunderstanding." This one seems more capable than when you landed terrestrially and had a lot of misunderstandings with another of these aliens.`
 			`	"Can you tell me about this place?" you ask.`

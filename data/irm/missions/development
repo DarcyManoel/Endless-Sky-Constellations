@@ -1,5 +1,5 @@
 mission "Irm: test Ospora [1a]"
-	description "Cassipeau is accompanying you to test a cooling system that her team has replicated from excavated alien technology. Stopover on <destination> before starting your expedition."
+	description "Cassipeau is accompanying you to test a cooling system that her team has replicated from excavated alien technology. Stop on <destination> before starting your expedition."
 	destination "Allhome"
 	name "Practical Test: Ospora"
 	on complete
@@ -21,7 +21,7 @@ mission "Irm: test Ospora [1a]"
 				`	"Courier work?"`
 					goto "work"
 				`	"How big are we talking?"`
-			`	"Big enough that I don't want a non-descript company worker to handle the shipping. You're competent enough for David to trust you as a partner, and you're lending a hand. I should count myself lucky that I might have more than a drone to work with, might."`
+			`	"Big enough that I don't want a non-descript company worker to handle the shipping. You're competent enough for David to trust you as a partner, and you're lending a hand. I should count myself lucky that I might have more than a drone to work with."`
 			choice
 				`	"Thank you?"`
 				`	"What's the job?"`
@@ -38,13 +38,13 @@ mission "Irm: test Ospora [1a]"
 				`	"I can test the new cooling systems on my ship."`
 				`	(Accept the courier job.)`
 					goto "courier"
-			`	Hesitant, she responds to your offer, "I'll need to be on board to observe the systems function. It'd be a long expedition, up to a month, to the south of Human space and back again."`
-			`	Hushed, she whispers to you, "Have you truly traveled beyond Human and Hai space?"`
+			`	Hesitant, she responds to your offer, "I'll need to be on board to observe the systems function. It'd be a long expedition, up to a month, to the south of human space and back again."`
+			`	Hushed, she whispers to you, "Have you truly traveled beyond human and Hai space?"`
 			choice
 				`	"I have."`
-				`	"I don't know what you're talking about"`
+				`	"I don't know what you're talking about."`
 					goto "dont know"
-			`	"I wonder if you'll share with me what lies beyond, some time." she says with an inquisitive awe.`
+			`	"I wonder if you'll share with me what lies beyond, sometime," she says with an inquisitive awe.`
 				goto "expedition"
 			label "dont know"
 			`	"That's a shame, David sometimes mentions your exploits and rumors he's heard. Spinning tales as he does I suppose." she says, obviously suspicious of your feigned ignorance.`
@@ -56,8 +56,8 @@ mission "Irm: test Ospora [1a]"
 			label "expedition"
 			action
 				outfit "Ospora Habitation Cooler (non-spacious)" 1
-			`	You make your travel arrangements with Cassipeau, that's the advisor's name as revealed during some continued conversation. The replicated cooling system gets installed onto your ship, ready to be tested.`
-			`	"So the plan is to travel south, stopover on Zug in the Free Worlds, and make our way back here." she reiterates to you once aboard your ship.`
+			`	You make your travel arrangements with Cassipeau, which is the advisor's name, as revealed during some continued conversation. The replicated cooling system gets installed onto your ship, ready to be tested.`
+			`	"So the plan is to travel south, stop on Zug in the Free Worlds, and then make our way back here," she reiterates to you once aboard your ship.`
 			`	After a hesitant pause, she then offers, "Unless you wanted to show me something special."`
 				to display
 					has "visited planet: Eavine"
@@ -71,7 +71,7 @@ mission "Irm: test Ospora [1a]"
 		has "Irm: Magni Port [3]: offered"
 		random < 30
 mission "Irm: test Ospora [1b], adherence"
-	description "Pilot your ship across Human space to test a new cooling systems effectiveness under normal use. Return to Arx after stopping over on <destination>"
+	description "Pilot your ship across human space to test a new cooling systems effectiveness under normal use. Return to Arx after stopping over on <destination>"
 	destination "Zug"
 	landing
 	name "Expedition to Zug"
@@ -118,7 +118,7 @@ mission "Irm: test Ospora [2b]"
 		event "Irm: Ospora sale" 90
 		conversation
 			`You bring your ship for landing at the spaceport and to your surprise, Cassipeau has already darted out of the cockpit towards exiting the ship. Finishing the landing checks, you head over to the research department to conclude your business.`
-			`	Luckily, this is where she ended up and she notices you by the entrance. "Thank you so much for your help <first>. Not only did we get the data we need, which looks very promising by the way, but I also didn't realize how much I'd needed to get off-world." she says, seemingly renewed from the tense exterior she had the day you initiated this journey.`
+			`	Luckily, this is where she ended up and she notices you by the entrance. "Thank you so much for your help <first>. Not only did we get the data we need, which by the way looks very promising, but I also didn't realize how much I'd needed to get off-world." she says, seemingly renewed from the tense exterior she had the day you initiated this journey.`
 			`	On the walk back to your ship, you receive payment of <payment>, addressed from Magni Port. It seems the spaceport on Arx has garnered a new name.`
 	on offer
 		dialog
