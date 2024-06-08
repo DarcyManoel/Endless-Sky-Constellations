@@ -375,7 +375,7 @@ mission "Irm: Magni Port 1"
 			`	David persists, adamant that the Quarg should know, and you are sent on your way. You could pretend to have asked the Quarg if you wanted, but why go against David now?`
 				accept
 	name "Petition the Quarg"
-	description `David is wary about the Quarg, insisting that you should inform them about your venture before they discover it for themselves. Any warning that the Quarg might offer you is important too; David assures you.`
+	description `David is wary about the Quarg, insisting that you should inform them about your venture before they discover it for themselves. Any warning that the Quarg might offer you is important too, David assures you.`
 	destination "Alta Hai"
 mission "Irm: Magni Port 2"
 	landing
@@ -418,7 +418,7 @@ mission "Irm: Magni Port 3"
 		conversation
 			`You're met by David as you come to a landing. He must have noticed your ship arriving and anticipated hearing about your interactions with the Quarg.`
 			`	He looks well rested, better than last you saw him. You say to him, "I met with the Quarg." David stands stern, confident. You tell him all about the Quarg's irreverence, or interest, noting that it's completely in character for the Quarg to leave you befuddled. David is particularly relieved that the Quarg's warning is presumably only regarding human piracy, a concern that David admits to being worried about himself since the beginning.`
-			`	A message on David's communicator reports that two Quarg Wardragons have entered the system. He hastily calls you to meet him at your ship and meet them.`
+			`	A message on David's communicator reports that two Quarg Wardragons have entered the system. He hastily calls you to take him in your ship to meet them.`
 				launch
 	on enter "Waypoint"
 		conversation
@@ -475,7 +475,7 @@ mission "Irm: Magni Port 5"
 			`	"Much of the technology here is well beyond human standards as was always a reasonable assumption. We've even found shipbound technologies, such as engine units fitting fighter models." David is eager to discuss the technology that his teams have unearthed but it's apparent that he means to push past this early stage of the operation.`
 			`	"Do you need any help?" you ask, cutting to the point.`
 			label "help"
-			`	"Not me personally, but of course we need help throughout the entire operation. I'm currently not as involved with the specifics of any one area, but we have two major departments here; being development and logistics." David seldom lacks an offer for work, but he may at least point you in the right direction.`
+			`	"Not me personally, but of course we need help throughout the entire operation. I'm currently not as involved with the specifics of any one area, but we have two major departments here; development and logistics." David seldom lacks an offer for work, but he may at least point you in the right direction.`
 			`	You're taken for an introduction to the development team, but unfortunately are not able to be given one, "They seem to be out for now, but you'll recognize some of the faces in there. Our two chief advisors from that first meeting you attended are the heads of the team, in the face of our current focus to explore the interior structure."`
 			`	Without being prompted for their qualifications, David assures you that they both have highly accomplished backgrounds in the sciences. You suppose it's good to know things are being handled by the professionals.`
 			`	"The more crucial operations lie with the logistics team though. Any material we need, or food and drink especially, needs to come from somewhere and we have convoys on a rotating basis to deliver us what is needed through the facade of the company on Greenrock. If you want something to do, you can talk to a port team supervisor to cover a logistics request."`
