@@ -35,7 +35,7 @@ mission "Irm: resonance 2"
 			`You're walking through the bustling docks of the port, with ships arriving and departing in such haste that there's hardly a moment to appreciate skies clear of air traffic. Remnant ports seem to be some of the busiest you find yourself in, despite their cultural isolation.`
 			`	Not long after finding yourself in the spaceport of <planet>, you're approached by a pair of who you assume to be security personnel.`
 			`	"Hello captain, is the <ship> under your command?" they ask you in a rather friendly manner, and you confirm that it is, "We've been asked to escort you to our outfitters, as a matter of urgency."`
-			`	You're led by security to the outfitters and are greeted promptly by a technician with comically large tinted goggles. Your escorts stop and tell the man; "Here is the captain of the <ship>, we'll leave them in your hands now." before walking away from the pair of you.`
+			`	You're led by security to the outfitters and are greeted promptly by a technician with comically large tinted goggles. Your escorts stop and tell the man; "Here is the captain of the <ship>, we'll leave them in your hands now," before walking away from the pair of you.`
 			`	"I'll make this quick, you're not in trouble. We noticed on your arrival, an abnormality in your Keystone that I believe I can help you with. We occasionally run into a similar problem during the 'Ion Storms' we encounter in the region, we have a relatively non-intrusive augmentation for the Keystones that remove unsafe levels of resonant build-up and I have to insist that you allow us to install it for you."`
 			choice
 				`	"You insist? Well sure, if it's so important."`
