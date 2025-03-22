@@ -1,0 +1,6 @@
+system "Waypoint"
+	add object "Slic Airn"
+		distance 1600
+		period 2040
+		sprite "planet/sheragi_postverta"
+			scale 0.5

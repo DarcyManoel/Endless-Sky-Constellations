@@ -1,0 +1,24 @@
+images/outfit/the irm/tekina engine*
+	License: CC-BY-SA-4.0
+	Copyright: Darcy Manoel (darcman00@gmail.com)
+	Derived from:
+		- Evan Fluharty (Evanfluharty@gmail.com)
+images/scene/the irm/ring*
+	License: CC-BY-SA-4.0
+	Copyright: Darcy Manoel (darcman00@gmail.com)
+	Derived from:
+		- Hill for 'The Ring World of "The Puppet Masters" by Larry Niven' (https://commons.wikimedia.org/wiki/File:Ringworld.jpg)
+images/outfit/the irm/keystone stabiliser*
+	License: CC-BY-SA-4.0
+	Copyright: Koranir (daniel@yoon.com.au)
+	Derived from:
+		- Michael Zahniser (mzahniser@gmail.com)
+#	unused
+images/-/ship/bennu*
+images/-/thumbnail/bennu*
+	License: CC-BY-SA-4.0
+	Copyright: bene_dictator (benstaples8068@gmail.com)
+	Derived from:
+		- Michael Zahniser (mzahniser@gmail.com)
+		- Becca Tommaso (tommasobecca03@gmail.com)
+		- Darcy Manoel (darcman00@gmail.com)

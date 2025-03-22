@@ -1,0 +1,22 @@
+outfit "Type 0 Radiant Engine"
+	category "Engines"
+	thumbnail "outfit/content wanderer/type 0 radiant engine"
+	description `The construction of the new Scud drones prompted a need for an even smaller engine complement than was available at the time. This led to the creation of the Type 0 Radiant Engine, the Wanderers' first-ever hybrid engines systems, capable of achieving speeds comparable to a set of Type 1 engines whilst remaining significantly smaller.`
+	description `This efficiency serves as a reminder to the Wanderers that their engineering has not stagnated, and that they are still capable of progressing their technology.`
+	cost 170000
+	licenses
+		"Wanderer Outfits"
+	"outfit space" -14
+	"engine capacity" -14
+
+	"flare sound" "plasma tiny"
+	"flare sprite" "effect/wanderer flare/tiny"
+		"frame rate" 12
+	"thrusting energy" 0.46
+	"thrusting heat" 0.5
+	"turning energy" 0.46
+	"turning heat" 0.84
+	cooling 1.9
+	mass 14
+	thrust 12.45
+	turn 363

@@ -1,0 +1,59 @@
+#	content, human
+outfit "Knockout Gas"
+	category "Hand to Hand"
+	plural "Cases of Knockout Gas"
+	thumbnail "outfit/-/knockout gas"
+	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
+	cost 110000
+	licenses
+		"Navy"
+
+	"capture attack" 2.2
+	"capture defense" 1.2
+	unplunderable 1
+#	specialist crew
+outfit "Shipwright Gear"
+	category "Special"
+	thumbnail "outfit/unknown"
+	description `As luck has it, many people offering their services as ship crew are actually skilled in some engineering background. With the right provisions they could be put to work reinforcing the hull of a ship under times of stress.`
+	description `Specialists among the ships crew require higher wages, but offer services not covered by regular crew members.`
+	cost 8400
+	
+	"hull energy" .06
+	"hull repair rate" .04
+	"operating cost" 50
+	"required crew" 1
+#	the irm
+outfit "Odus Reformatory"
+	category "Systems"
+	thumbnail "outfit/unknown"
+	description "The ultra-low temperature environment found within allows scientists and researchers to explore the unique properties of matter and conduct experiments in a variety of fields that require the specific temperatures made possible with this equipment."
+	description "Ship-bound, it serves as a rudimentary chiller of thermal fluid run through its internal chamber, the process utilized is continuous and must be run in its full capacity."
+	cost 300000
+	"outfit space" -5
+
+	"energy consumption" 4
+	cooling 34
+	mass 5
+outfit "Ordaria System Cooler"
+	category "Systems"
+	thumbnail "outfit/unknown"
+	description "This localized cooling system is tailored for immediate need equipment and is incredibly useful as it helps maintain ideal operating temperatures, this often prevents overheating and potential damage. By targeting cooling regionally aboard a ship, it ensures efficient heat dissipation and potentially avoids thermal shut-down."
+	cost 168000
+	"outfit space" -2
+
+	"energy consumption" 0.3
+	cooling 6.9
+	mass 2
+outfit "Ospora Habitation Cooler"
+	category "Systems"
+	thumbnail "outfit/unknown"
+	description "The optimal temperature for habitation is innately made difficult in space, as it's difficult to shed excess heat. On-demand cooling is a popular choice so as to maintain temperatures at a comfortable level and offset periods of temperature-induced stress."
+	description "The thermal mass provided by this equipment is much like a temperature buffer, absorbing and storing excess heat during spikes in operating temperature. It helps to stabilize the operating environment by releasing stored heat when cooled down, preventing sudden fluctuations."
+	cost 1220000
+	"outfit space" -48
+
+	"active cooling" 162
+	"cooling energy" 14.2
+	"heat capacity" 960
+	mass 48

@@ -1,0 +1,148 @@
+ship "Kar Ik Vot 637"
+	sprite "ship/content korath/kar ik vot 637"
+	thumbnail "thumbnail/content korath/kar ik vot 637"
+	attributes
+		category "Heavy Warship"
+		cost 44130000
+
+		"outfit space" 1239
+		"weapon capacity" 527
+		"engine capacity" 211
+
+		"cargo space" 63
+		"fuel capacity" 600
+		"heat dissipation" .23
+		"self destruct" .8
+		automaton 1
+		drag 42.6
+		hull 67400
+		mass 4250
+		ramscoop 3
+		shields 82900
+		weapon
+			"blast radius" 550
+			"hit force" 9800
+			"hull damage" 3600
+			"shield damage" 6800
+	explode "huge explosion" 20
+	explode "large explosion" 60
+	explode "medium explosion" 90
+	explode "small explosion" 70
+	explode "tiny explosion" 140
+	"final explode" "final explosion large"
+	outfits
+		"Control Transceiver"
+		"Double Plasma Core"
+		"Hyperdrive"
+		"Korath Detainer" 2
+		"Large Heat Shunt" 5
+		"Piercer Missile Launcher" 2
+		"Piercer Missile" 62
+		"Small Heat Shunt"
+		"Systems Core (Large)"
+		"Systems Core (Small)"
+		"Thermal Repeater Turret" 8
+		"Triple Plasma Core"
+		"Vector Engine (Reality Class)"
+	bay "Drone" -52 296
+		back
+		under
+	bay "Drone" 46 0
+		over
+	bay "Drone" 52 -37
+		under
+	bay "Fighter" -44 -17
+		over
+	bay "Fighter" 52 258
+		back
+		over
+	engine -31 349 .6
+	engine -78 221
+	engine 0 335
+	engine 31 349 .6
+	engine 78 221
+	gun -11 -323 "Korath Detainer"
+	gun 11 -323 "Korath Detainer"
+	gun -22 -272 "Piercer Missile Launcher"
+	gun 22 -272 "Piercer Missile Launcher"
+	turret -50 -261 "Thermal Repeater Turret"
+	turret 50 -261 "Thermal Repeater Turret"
+	turret -52 -238 "Thermal Repeater Turret"
+	turret 52 -238 "Thermal Repeater Turret"
+	turret -54 -210 "Thermal Repeater Turret"
+	turret 54 -210 "Thermal Repeater Turret"
+	turret -57 -181 "Thermal Repeater Turret"
+	turret 57 -181 "Thermal Repeater Turret"
+ship "Kar Ik Vot 711"
+	sprite "ship/content korath/kar ik vot 711"
+	thumbnail "thumbnail/content korath/kar ik vot 711"
+	attributes
+		category "Heavy Warship"
+		cost 47550000
+
+		"outfit space" 1461
+		"weapon capacity" 527
+		"engine capacity" 261
+
+		"cargo space" 56
+		"fuel capacity" 700
+		"heat dissipation" .21
+		"self destruct" .8
+		automaton 1
+		drag 48.6
+		hull 82100
+		mass 4710
+		ramscoop 3
+		shields 88400
+		weapon
+			"blast radius" 570
+			"hit force" 9500
+			"hull damage" 4100
+			"shield damage" 6900
+	explode "huge explosion" 20
+	explode "large explosion" 60
+	explode "medium explosion" 90
+	explode "small explosion" 70
+	explode "tiny explosion" 140
+	"final explode" "final explosion large"
+	outfits
+		"Banisher Grav-Turret" 2
+		"Control Transceiver" 2
+		"Hyperdrive"
+		"Large Heat Shunt" 7
+		"Outfits Expansion"
+		"Piercer Missile Launcher" 2
+		"Piercer Missile Rack" 3
+		"Piercer Missile" 110
+		"Small Heat Shunt" 2
+		"Systems Core (Large)"
+		"Systems Core (Medium)"
+		"Thermal Repeater Turret" 8
+		"Thruster (Lunar Class)"
+		"Triple Plasma Core" 2
+		"Vector Engine (Reality Class)"
+		"Warder Anti-Missile" 4
+	engine -31.5 365.5 1.2
+	engine -57.5 297
+		over
+	engine 31.5 365.5 1.2
+	engine 57.5 297
+		over
+	gun -11.5 -319.5 "Piercer Missile Launcher"
+	gun 11.5 -319.5 "Piercer Missile Launcher"
+	turret -50.5 -259.5 "Thermal Repeater Turret"
+	turret 50.5 -259.5 "Thermal Repeater Turret"
+	turret -52 -235.5 "Thermal Repeater Turret"
+	turret 52 -235.5 "Thermal Repeater Turret"
+	turret -54.5 -207.5 "Thermal Repeater Turret"
+	turret 54.5 -207.5 "Thermal Repeater Turret"
+	turret -55 -178.5 "Banisher Grav-Turret"
+	turret 55 -178.5 "Banisher Grav-Turret"
+	turret -53 -152.5
+	turret 53 -152.5
+	turret -50.5 -128.5 "Warder Anti-Missile"
+	turret 50.5 -128.5 "Warder Anti-Missile"
+	turret -123.5 201 "Thermal Repeater Turret"
+	turret -102.5 201 "Warder Anti-Missile"
+	turret 102.5 201 "Warder Anti-Missile"
+	turret 123.5 201 "Thermal Repeater Turret"

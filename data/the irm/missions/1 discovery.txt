@@ -1,0 +1,273 @@
+mission "Irm: resonance 1"
+	invisible
+	landing
+	source
+		planet "Slic Airn"
+	to offer
+		or
+			has "outfit: Quantum Key Stone"
+			has "outfit: Quantum Keystone"
+			has "outfit: Shield Beetle Pendant"
+	on offer
+		conversation
+			`Stepping out of your ship, you're immediately struck by the stillness. There's a weight to the silence, as if the very essence of the station holds its breath, waiting for your intrusion. The corridors stretch out before you, dimly lit by emergency lighting, casting long shadows that creep and fade with your every movement.`
+			`	Despite the solitude of your presence and the desolation brought by the station, there's a haunting beauty to the moment. The vast expanse of space is open to you through unbelievably pellucid windows, where you can observe in stillness the busy traffic of the system.`
+			`	You come to entertain a realization that you might presently stand at the ultimate crossroads of Humanity and the Hai, where the ever-strengthening bond between two civilisations seem nothing short of unbreakable.`
+			choice
+				`	(Return to your ship.)`
+			`	There's a faint thrum echoing from within your ship through into the dock, where earlier you noted nothing out of the ordinary.`
+			`	You follow the sound until you happen upon where it is most overwhelming. Evidently, the sound is emanating from your Quantum Keystone, which now glows a faint yellow and vibrates softly, yet is still generating a heavy and consistent low tone.`
+			`	An underlying fear that this situation might escalate suggests you quickly depart the station, hopefully it's nothing of consequence.`
+				launch
+mission "Irm: resonance 2"
+	invisible
+	landing
+	source
+		government "Remnant"
+	to offer
+		has "Irm: resonance 1: offered"
+		has "Remnant: Technology Available: offered"
+	on offer
+		event "Irm: remnant sell stabilizers"
+		event "Irm: shift waypoint"
+		outfit "Keystone Stabilizer" 1
+		conversation
+			`You're walking through the bustling docks of the port, with ships arriving and departing in such haste that there's hardly a moment to appreciate skies clear of air traffic. Remnant ports seem to be some of the busiest you find yourself in, despite their cultural isolation.`
+			`	Not long after finding yourself in the spaceport of <planet>, you're approached by a pair of who you assume to be security personnel.`
+			`	"Hello captain, is the <ship> under your command?" they ask you in a rather friendly manner, and you confirm that it is, "We've been asked to escort you to our outfitters, as a matter of urgency."`
+			`	You're led by security to the outfitters and are greeted promptly by a technician with comically large tinted goggles. Your escorts stop and tell the man; "Here is the captain of the <ship>, we'll leave them in your hands now," before walking away from the pair of you.`
+			`	"I'll make this quick, you're not in trouble. We noticed on your arrival, an abnormality in your Keystone that I believe I can help you with. We occasionally run into a similar problem during the 'Ion Storms' we encounter in the region, we have a relatively non-intrusive augmentation for the Keystones that remove unsafe levels of resonant build-up and I have to insist that you allow us to install it for you."`
+			choice
+				`	"You insist? Well sure, if it's so important."`
+					decline
+				`	"What happens at 'unsafe levels'?"`
+			`	"Unsafe as in after a certain point it won't allow you to travel through our wormholes anymore. Nothing so harmful as to directly compromise your safety, but it's a problem you don't want to be on the wrong side of in a delicate situation."`
+			`	With that explanation, you allow for the undeniably speedy installation of the device, and you're eager to now be left to your devices.`
+				decline
+event "Irm: remnant sell stabilizers"
+	outfitter "Remnant"
+		add "Keystone Stabilizer"
+event "Irm: shift waypoint"
+	system "Waypoint"
+		add object
+			distance 406
+			offset 20
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 40
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 60
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 80
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 100
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 120
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 140
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 160
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 180
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 200
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 220
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 240
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 260
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 280
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 300
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 320
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 340
+			sprite "planet/the irm/shaders faded"
+		add object
+			distance 406
+			offset 360
+			sprite "planet/the irm/shaders faded"
+		add object "Arx"
+			distance 812
+			offset 20
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 40
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 60
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 80
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 100
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 120
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 140
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 160
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 180
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 200
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 220
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 240
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 260
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 280
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 300
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 320
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 340
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Arx"
+			distance 812
+			offset 360
+			sprite "planet/the irm/ringworld faded"
+				scale .5
+		add object "Huer"
+			distance 1408
+			offset 280
+			period 408
+			sprite "planet/the irm/ocean2 faded"
+mission "Irm: resonance 3"
+	#	dead end
+	landing
+	source "Alta Hai"
+	to offer
+		has "Irm: resonance 1: offered"
+		not "Irm: resonance 2: offered"
+	on offer
+		conversation
+			`Touching down within one of Alta Hai's hangars is second in ease only to an outdoor landing pad. You stand still once outside your ship, hanging on the sight of the massive hanger stretching into the distance but shake the feeling before long.`
+			`	One of the Quarg of a small group standing beside the doorway out of the hanger breaks off from their discussion to speak to you, "Hello merchant, your ship is auraed, I can see it."`
+			choice
+				`	"What are you talking about?"`
+				`	"I don't see anything wrong with my ship."`
+			`	"Your ship has been touched by the Irm, it stays with you. Do you have a Quantum Keystone with your ship?" they 'elaborate', unhelpfully. You answer in turn, "The <ship> has a Quantum Keystone, but so do most of the Hai who board here."`
+			`	They blink slowly, ruminating on their thoughts, "But they do not touch the Irm, the station of Waypoint is troublesome to the crystals."`
+			choice
+				`	"Why don't they get rid of it?"`
+				`	"Are you saying that station damaged my ship?"`
+					goto "damage"
+				`	"What is the 'Irm'?"`
+					goto "irm"
+			`	"The Hai cannot rid Waypoint of the Irm, for what they don't understand, remains present." The answer is as vague as it is worrisome, so you try to disregard it as best you can.`
+			`	You shift topics back to the crystal, "What does the station do to the crystal?"`
+			label "damage"
+			`	"They can alter the crystal, collect charge. No harm should come to you, but the Hai rumor that the station reverses the good luck from the crystals," the Quarg describes, gradually telling more sensible tales.`
+			choice
+				`	"What really happens to the crystals?"`
+				`	"Do I need to worry?"`
+			`	The naturally slow to reply Quarg lends many moments of thought to you, the dragging discussion feels anything but productive. "The crystals very rarely interfere with spacial phenomena, there is negligible concern. The Hai are wrong about the 'good luck' effects of the crystals but the tales they tell are charming." The Quarg retreats to some seating along the walls, and you decide to follow them.`
+			`	"You mentioned the 'Irm'? What is that?" you ask.`
+			label "irm"
+			`	"They are a highly advanced people, with a deep-held belief in the supremacy of progress. They lived in designed habitats on the surface of their world, and eventually, time demanded them to rise above to live aboard a ringworld of their making. Irm created a harmonious work of nature and technology, challenged by none but our living example."`
+			`	"Irm mastered the art to self-suffice, using automated machinery to meet their needs under a prologist's watch, which itself was automated. They harnessed the power of their star, positioning energy collectors to ensure the utilization of their star's lights. Their ultimate means fostered a culture rich with compounding learning and innovation."`
+			`	Mysteriously, little recognition is afforded to any questions about where their ring is in space now. The subject of the complete and strangely untraceable disappearance of the Irm is avoided, so you decide not to press these questions considering how fortunate you are to get this retelling as it is.`
+				decline
+mission "Irm: resonance 4"
+	invisible
+	landing
+	source
+		government "Remnant"
+	to offer
+		has "Irm: resonance 1: offered"
+		has "Remnant: Technology Available: offered"
+	on enter "Waypoint"
+		fail
+		conversation
+			scene "scene/ring"
+			`You know you're not going crazy, but you feel close to it.`
+			`	There was not a ringworld in this system previously. The Quarg surely would not build another so close to their own, and neither Human nor Hai technology is capable of this feat. Obviously in any case, there is no possibility that this was constructed from start to finish within your lifetime.`
+			`	Without the ability to rationalise this event, yet with all technology available to you and your own eyes suggesting the reality of it, you're forced to come to terms with the phenomenon.`
+			`	The Quarg may be able to offer some insight.`
+				to display
+					has "First Contact: Quarg: offered"
+					not "Irm: resonance 3: offered"

@@ -1,0 +1,20 @@
+start "hate exploring"
+	name "I Hate Exploring"
+	description `You grew up on New Boston, an uninteresting world in the Dirt Belt. You've dreamed of owning a starship ever since your first visit to the spaceport at the age of fifteen. After many long years of working at a textile mill, you've finally saved enough credits to apply for a pilot's license from the Republic.`
+	description `	This start is identical to the default start, however all systems and wormholes are revealed immediately.`
+	thumbnail "scene/lobby"
+	date 16 11 3013
+	system "Rutilicus"
+	planet "New Boston"
+	conversation "default intro"
+	account
+		credits 480000
+		score 400
+		mortgage Mortgage
+			principal 480000
+			interest 0.004
+			term 365
+	set "license: Pilot's"
+	to reveal
+		has "main plot completed"
+	set "revealed map"

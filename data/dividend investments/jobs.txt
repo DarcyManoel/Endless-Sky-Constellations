@@ -1,0 +1,274 @@
+mission "investment 50k"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 50000
+	name "Investment Opportunity! Tier 1"
+	description `Invest your hard earned money to work further for YOU! Investing 50 thousand credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -50000
+		"salary: Investment Dividends" += 7
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 100k"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 100000
+	name "Investment Opportunity! Tier 2"
+	description `Invest your hard earned money to work further for YOU! Investing 100 thousand credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -100000
+		"salary: Investment Dividends" += 14
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 500k"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 500000
+	name "Investment Opportunity! Tier 3"
+	description `Invest your hard earned money to work further for YOU! Investing 500 thousand credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -500000
+		"salary: Investment Dividends" += 69
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 1m"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 1000000
+	name "Investment Opportunity! Tier 4"
+	description `Invest your hard earned money to work further for YOU! Investing 1 million credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -1000000
+		"salary: Investment Dividends" += 137
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 10m"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 10000000
+	name "Investment Opportunity! Tier 5"
+	description `Invest your hard earned money to work further for YOU! Investing 10 million credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -10000000
+		"salary: Investment Dividends" += 1370
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 50m"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 50000000
+	name "Investment Opportunity! Tier 6"
+	description `Invest your hard earned money to work further for YOU! Investing 50 million credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -50000000
+		"salary: Investment Dividends" += 6850
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 100m"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 100000000
+	name "Investment Opportunity! Tier 7"
+	description `Invest your hard earned money to work further for YOU! Investing 100 million credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -100000000
+		"salary: Investment Dividends" += 13699
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "investment 500m"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"credits" > 500000000
+	name "Investment Opportunity! Tier 8"
+	description `Invest your hard earned money to work further for YOU! Investing 500 million credits with us will guarantee a return on your investment within 20 years, with no contract end date. It's income for you, on your time.`
+	on accept
+		payment -500000000
+		"salary: Investment Dividends" += 68494
+		dialog `After signing the relevant forms, the representative finalising the investment reads out to you the paramount clause in the forms you just signed. "Any withdrawals will only ever be refunded at 80% of the principal investment"`
+	on daily
+		fail
+mission "withdraw investments"
+	job
+	repeat
+	source
+		attributes "urban"
+		government
+			"Free Worlds"
+			"Hai"
+			"Neutral"
+			"Republic"
+			"Syndicate"
+	to offer
+		"salary: Investment Dividends" >= 7
+	name "Withdraw CHI Investments"
+	description `Visit the local branch of Central Human Investments to withdraw previously invested credits. (at a non-complete refund of the principal investment)`
+	on accept
+		conversation
+			`You enter the local branch of the Central Human Investments organisation and you go through the process of being placed with the person with the relevant authority to withdraw client balances. The wait is long, and you're doubtful that this long of a wait is necessary, eventually you're met by someone able to serve you.`
+			``
+			`	(You were warned when making investments that any withdrawals will only ever be refunded at 80% of the principal investment)`
+			label "return"
+			choice
+				`	Withdraw 40k`
+					to display
+						"salary: Investment Dividends" > 7
+					goto "50k"
+				`	Withdraw 80k`
+					to display
+						"salary: Investment Dividends" > 14
+					goto "100k"
+				`	Withdraw 400k`
+					to display
+						"salary: Investment Dividends" > 69
+					goto "500k"
+				`	Withdraw 800k`
+					to display
+						"salary: Investment Dividends" > 137
+					goto "1m"
+				`	Withdraw 8m`
+					to display
+						"salary: Investment Dividends" > 1370
+					goto "10m"
+				`	Withdraw 40m`
+					to display
+						"salary: Investment Dividends" > 6850
+					goto "50m"
+				`	Withdraw 80m`
+					to display
+						"salary: Investment Dividends" > 13699
+					goto "100m"
+				`	Withdraw 400m`
+					to display
+						"salary: Investment Dividends" > 68494
+					goto "500m"
+				`	(Leave.)`
+					decline
+			label "50k"
+			action
+				payment 40000
+				"salary: Investment Dividends" -= 7
+			`	40k credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "100k"
+			action
+				payment 80000
+				"salary: Investment Dividends" -= 14
+			`	80k credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "500k"
+			action
+				payment 400000
+				"salary: Investment Dividends" -= 69
+			`	400k credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "1m"
+			action
+				payment 800000
+				"salary: Investment Dividends" -= 137
+			`	800k credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "10m"
+			action
+				payment 8000000
+				"salary: Investment Dividends" -= 1370
+			`	8m credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "50m"
+			action
+				payment 40000000
+				"salary: Investment Dividends" -= 6850
+			`	40m credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "100m"
+			action
+				payment 80000000
+				"salary: Investment Dividends" -= 13699
+			`	80m credits has been withdrawn from the fund into your account.`
+				goto "return"
+			label "500m"
+			action
+				payment 400000000
+				"salary: Investment Dividends" -= 68494
+			`	400m credits has been withdrawn from the fund into your account.`
+				goto "return"
+	on daily
+		fail

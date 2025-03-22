@@ -1,0 +1,9 @@
+fleet "Wanderer Flycatchers"
+	add variant
+		"Scud" 2
+	add variant
+		"Scud" 3
+	add variant
+		"Scud" 4
+	add variant
+		"Scud" 5

@@ -1,0 +1,74 @@
+#	mereti
+fleet "Small Kor Mereti"
+	add variant 24
+		"Model 8 (Disruptor)"
+		"Model 8 (Minelayer)" 4
+	add variant 8
+		"Model 64" 3
+		"Model 8 (Disruptor)" 2
+	add variant 7
+		"Model 128"
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
+	add variant 4
+		"Model 256"
+		"Model 8 (Minelayer)" 3
+	add variant 4
+		"Model 128"
+		"Model 32" 2
+		"Model 8 (Disruptor)" 5
+fleet "Large Kor Mereti"
+	add variant 15
+		"Model 8 (Disruptor)" 3
+		"Model 8 (Minelayer)" 2
+	add variant 6
+		"Model 64" 2
+		"Model 8 (Disruptor)" 5
+	add variant 5
+		"Model 128" 2
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
+	add variant 3
+		"Model 256"
+		"Model 8 (Minelayer)" 2
+	add variant 3
+		"Model 128"
+		"Model 32" 3
+		"Model 8 (Disruptor)" 3
+	add variant 2
+		"Model 128"
+		"Model 16" 4
+		"Model 256"
+		"Model 32" 2
+		"Model 512"
+		"Model 64" 3
+		"Model 8 (Minelayer)" 2
+#	sestor
+fleet "Large Kor Sestor"
+	add variant 16
+		"Far Lek 14" 10
+		"Far Osk 27" 8
+		"Kar Ik Vot 637"
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Tek Far 78 - Osk (Close Quarters)"
+	add variant 12
+		"Far Lek 14" 10
+		"Far Osk 27" 2
+		"Kar Ik Vot 637"
+		"Met Par Tek 53" 3
+		"Tek Far 71 - Lek"
+	add variant 8
+		"Kar Ik Vot 349"
+		"Kar Ik Vot 711"
+	add variant 5
+		"Far Lek 14" 10
+		"Far Osk 27" 8
+		"Kar Ik Vot 711"
+		"Met Par Tek 53" 3
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Tek Far 78 - Osk (Close Quarters)"
+	add variant 4
+		"Far Lek 14" 18
+		"Far Osk 27" 14
+		"Kar Ik Vot 711"
+		"Tek Far 109" 2

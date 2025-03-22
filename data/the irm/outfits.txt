@@ -1,0 +1,29 @@
+outfit "Keystone Stabilizer"
+	category "Systems"
+	thumbnail "outfit/the irm/keystone stabiliser"
+	description "The Remnant sell these devices as an addendum to the Quantum Keystones. Quantum Keystones are occasionally subject to some sort of energetic build-up where their ordinary workings are interfered with, this is what these devices prevent."
+	"outfit space" -1
+
+	"resonant drain" 1
+	mass 2
+outfit "Tekina Engine"
+	category "Engines"
+	thumbnail "outfit/the irm/tekina engine"
+	description "The geometry and subsequent workings of this technology seem incomprehensible to any user. However, surprisingly, it proves more than a match for any set of engines of a similar size, especially any that allows for fully-fledged maneuverability. Tekina engines boast a very conservative drain on a ship's resources, far outshining the efficiency of many engines available in this size."
+	cost 940000
+	"outfit space" -39
+	"engine capacity" -39
+
+	"flare sound" "plasma medium"
+	"flare sprite" "flare/tekina engine"
+		"frame rate" 3
+	"reverse thrust" 22.125
+	"reverse thrusting energy" 1.65
+	"reverse thrusting heat" 2.4
+	"thrusting energy" 2.2
+	"thrusting heat" 1.8
+	"turning energy" 1.4
+	"turning heat" 1
+	mass 39
+	thrust 44.25
+	turn 870

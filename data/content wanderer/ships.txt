@@ -1,0 +1,34 @@
+ship "Scud"
+	sprite "ship/content wanderer/scud"
+	thumbnail "thumbnail/content wanderer/scud"
+	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
+	attributes
+		category "Drone"
+		cost 980000
+		licenses
+			"Wanderer"
+
+		"outfit space" 61
+		"weapon capacity" 29
+		"engine capacity" 17
+
+		"heat dissipation" .66
+		automaton 1
+		drag .7
+		hull 3900
+		mass 49
+		weapon
+			"blast radius" 10
+			"hit force" 250
+			"hull damage" 150
+			"shield damage" 100
+	explode "small explosion" 20
+	explode "tiny explosion" 30
+	outfits
+		"Small Biochemical Cell"
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 40
+		"Type 0 Radiant Engine"
+	engine -9 28
+	engine 9 28
+	gun 0 -36 "Thunderhead Launcher"

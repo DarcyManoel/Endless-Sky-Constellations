@@ -1,0 +1,54 @@
+system "Al Hurr"
+	pos -423 -535
+system "Almaaz"
+	pos -337 -503
+system "Alnilam"
+	pos -229 -551
+system "Ap'arak"
+	pos -157 -795
+system "Aya'k'k"
+	pos -234 -609
+system "Arneb"
+	pos -235 -472
+system "Chirr'ay'akai"
+	pos -97 -771
+system "Chy'chra"
+	pos 74 -825
+system "Ek'kek'ru"
+	pos -240 -702
+system "Es'sprak'ai"
+	pos -322 -573
+system "Gorvi"
+	pos -422 -487
+system "Hatysa"
+	pos -256 -504
+system "Ik'kara'ka"
+	pos 45 -882
+system "Iyech'yek"
+	pos -156 -675
+system "Ka'ch'chrai"
+	pos -244 -780
+system "Ka'pru"
+	pos -105 -965
+system "Kiro'ku"
+	pos -137 -885
+system "Kiru'kichi"
+	pos -100 -711
+system "Mintaka"
+	pos -368 -465
+system "Pik'ro'iyak"
+	pos -286 -624
+system "Prakacha'a"
+	pos -27 -805
+system "Pug Iyik"
+	pos -361 -883
+system "Si'yak'ku"
+	pos -281 -690
+system "Sich'ka'ara"
+	pos -92 -827
+system "Sko'karak"
+	pos -295 -839
+system "Tortor"
+	pos -440 -438
+system "Unagi"
+	pos -363 -537
