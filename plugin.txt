@@ -4,10 +4,10 @@ about ``
 about `- Advantage Starts -`
 about `Provides powerful new start scenarios for players that have achieved sufficient progress in the game in previous saves.`
 about ``
-about `- Content, Korath-`
+about `- Content, Korath -`
 about `2-ships, 2-outfits, 1-outfit override.`
 about ``
-about `- Content, Wanderer-`
+about `- Content, Wanderer -`
 about `1-ship, 1-outfit, map changes.`
 about ``
 about `- Dividend Investments -`
