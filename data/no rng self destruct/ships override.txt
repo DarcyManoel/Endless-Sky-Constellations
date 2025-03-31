@@ -1,0 +1,75 @@
+#	avgi / avgi ships.txt
+ship "Modified Tachytia"
+	add attributes
+		"self destruct" -1
+#	human / marauders.txt
+ship "Marauder Arrow"
+	add attributes
+		"self destruct" -1
+ship "Marauder Bounder"
+	add attributes
+		"self destruct" -1
+ship "Marauder Falcon"
+	add attributes
+		"self destruct" -1
+ship "Marauder Firebird"
+	add attributes
+		"self destruct" -1
+ship "Marauder Leviathan"
+	add attributes
+		"self destruct" -1
+ship "Marauder Manta"
+	add attributes
+		"self destruct" -1
+ship "Marauder Quicksilver"
+	add attributes
+		"self destruct" -1
+ship "Marauder Raven"
+	add attributes
+		"self destruct" -1
+ship "Marauder Splinter"
+	add attributes
+		"self destruct" -1
+#	korath / korath ships.txt
+ship "Far Lek 14"
+	add attributes
+		"self destruct" -1
+ship "Far Osk 27"
+	add attributes
+		"self destruct" -1
+ship "Kar Ik Vot 349"
+	add attributes
+		"self destruct" -1
+ship "Met Par Tek 53"
+	add attributes
+		"self destruct" -1
+ship "Model 128"
+	add attributes
+		"self destruct" -1
+ship "Model 16"
+	add attributes
+		"self destruct" -1
+ship "Model 256"
+	add attributes
+		"self destruct" -1
+ship "Model 32"
+	add attributes
+		"self destruct" -1
+ship "Model 512"
+	add attributes
+		"self destruct" -1
+ship "Model 64"
+	add attributes
+		"self destruct" -1
+ship "Model 8"
+	add attributes
+		"self destruct" -1
+ship "Tek Far 109"
+	add attributes
+		"self destruct" -1
+ship "Tek Far 71 - Lek"
+	add attributes
+		"self destruct" -1
+ship "Tek Far 78 - Osk"
+	add attributes
+		"self destruct" -1

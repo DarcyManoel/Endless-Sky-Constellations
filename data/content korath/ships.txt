@@ -12,7 +12,7 @@ ship "Kar Ik Vot 637"
 		"cargo space" 63
 		"fuel capacity" 600
 		"heat dissipation" .23
-		"self destruct" .8
+		#"self destruct" .8    # disabled according with 'no rng self destruct'
 		automaton 1
 		drag 42.6
 		hull 67400
@@ -87,7 +87,7 @@ ship "Kar Ik Vot 711"
 		"cargo space" 56
 		"fuel capacity" 700
 		"heat dissipation" .21
-		"self destruct" .8
+		#"self destruct" .8    # disabled according with 'no rng self destruct'
 		automaton 1
 		drag 48.6
 		hull 82100
