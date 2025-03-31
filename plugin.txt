@@ -1,5 +1,4 @@
 name `Constellations`
-version `d9fc66a`
 authors
 	`Darcy Manoel`
 dependencies
