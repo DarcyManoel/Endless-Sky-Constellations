@@ -1,6 +1,7 @@
 name `Constellations`
 version `d9fc66a`
-authors `Darcy Manoel`
+authors
+	`Darcy Manoel`
 dependencies
 	"game version" 0.10.7
 about `This mod, rather modpack, aims to improve the vanilla experience by incorporating content from various community mods. The incorporated content is conservatively curated in a way that may or may not capture the authors intent within their greater offering of content.`
