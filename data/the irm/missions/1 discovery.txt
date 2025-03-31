@@ -263,7 +263,7 @@ mission "Irm: resonance 4"
 	on enter "Waypoint"
 		fail
 		conversation
-			scene "scene/ring"
+			scene "scene/the irm/ring"
 			`You know you're not going crazy, but you feel close to it.`
 			`	There was not a ringworld in this system previously. The Quarg surely would not build another so close to their own, and neither Human nor Hai technology is capable of this feat. Obviously in any case, there is no possibility that this was constructed from start to finish within your lifetime.`
 			`	Without the ability to rationalise this event, yet with all technology available to you and your own eyes suggesting the reality of it, you're forced to come to terms with the phenomenon.`

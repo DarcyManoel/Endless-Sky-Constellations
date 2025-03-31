@@ -15,7 +15,7 @@ outfit "Tekina Engine"
 	"engine capacity" -39
 
 	"flare sound" "plasma medium"
-	"flare sprite" "flare/tekina engine"
+	"flare sprite" "flare/the irm/tekina engine"
 		"frame rate" 3
 	"reverse thrust" 22.125
 	"reverse thrusting energy" 1.65

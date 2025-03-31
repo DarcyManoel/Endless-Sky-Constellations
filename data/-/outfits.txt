@@ -2,7 +2,7 @@
 outfit "Knockout Gas"
 	category "Hand to Hand"
 	plural "Cases of Knockout Gas"
-	thumbnail "outfit/-/knockout gas"
+	thumbnail "-/outfit/knockout gas"
 	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
 	cost 110000
 	licenses
