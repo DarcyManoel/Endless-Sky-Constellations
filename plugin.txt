@@ -3,27 +3,4 @@ authors
 	`Darcy Manoel`
 dependencies
 	"game version" 0.10.7
-about `This mod, rather modpack, aims to improve the vanilla experience by incorporating content from various community mods. The incorporated content is conservatively curated in a way that may or may not capture the authors intent within their greater offering of content.`
-about ``
-about `- Advantage Starts -`
-about `Provides powerful new start scenarios for players that have achieved sufficient progress in the game in previous saves.`
-about ``
-about `- Content, Korath -`
-about `2-ships, 2-outfits, 1-outfit override.`
-about ``
-about `- Content, Wanderer -`
-about `1-ship, 1-outfit, map changes.`
-about ``
-about `- Dividend Investments -`
-about `Offers jobs to invest in a managed fund to provide reliable income to the player.`
-about ``
-about `- Particle Asteroids -`
-about `Reduces the size of invulnerable asteroids so as to not hinder the combat experience of the game.`
-about ``
-about `- The Irm -`
-about `Introduces the once great Irm as ruins of their once great feats. The experience will be all about the players choices on what to do with the ruins left behind.`
-about `2-outfits, system changes.`
-about `!! THIS IS CURRENTLY NOT FUNCTIONING DUE TO ONGOING VANILLA CONTENT REVISIONS !!`
-about ``
-about `- Unique Spaceport -`
-about `Disables repeatable spaceport missions. Despite the additional content they provide, they have the bigger consequence of bloating spaceport events with generic and unimpactful missions.`
+about `This mod, rather modpack, aims to improve the vanilla experience through a range of changes. Balance changes and content expansions are both included.`
