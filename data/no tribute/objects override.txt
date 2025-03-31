@@ -1,0 +1,1204 @@
+planet "Aava-Aasa-Khora"
+	tribute 0
+planet "Ablub's Invention"
+	tribute 0
+planet "Ada"
+	tribute 0
+planet "Aera"
+	tribute 0
+planet "Aetuah"
+	tribute 0
+planet "Ahr"
+	tribute 0
+planet "Aksaray"
+	tribute 0
+planet "Aktina Cylinder"
+	tribute 0
+planet "Alathil"
+	tribute 0
+planet "Albatross"
+	tribute 0
+planet "Alexandria"
+	tribute 0
+planet "Alfheim"
+	tribute 0
+planet "Alix"
+	tribute 0
+planet "Allhome"
+	tribute 0
+planet "Alonis Observatory"
+	tribute 0
+planet "Alta Hai"
+	tribute 0
+planet "Alvorada"
+	tribute 0
+planet "Amathil"
+	tribute 0
+planet "Amazon"
+	tribute 0
+planet "Anatrefo"
+	tribute 0
+planet "Angko"
+	tribute 0
+planet "Anitlos"
+	tribute 0
+planet "Antipode"
+	tribute 0
+planet "Antivli Station"
+	tribute 0
+planet "Aqra-Kvel-Taaq"
+	tribute 0
+planet "Arabia"
+	tribute 0
+planet "Arachne Station"
+	tribute 0
+planet "Araio"
+	tribute 0
+planet "Aresepru Nat"
+	tribute 0
+planet "Arroharg"
+	tribute 0
+planet "Asgard"
+	tribute 0
+planet "Ashkelon"
+	tribute 0
+planet "Ashy Reach"
+	tribute 0
+planet "Aspar"
+	tribute 0
+planet "Asphodel"
+	tribute 0
+planet "Aspiration"
+	tribute 0
+planet "Asterus"
+	tribute 0
+planet "Avalet"
+	tribute 0
+planet "Avalon"
+	tribute 0
+planet "Aventine"
+	tribute 0
+planet "Aviskir"
+	tribute 0
+planet "Babiali"
+	tribute 0
+planet "Baianus"
+	tribute 0
+planet "Bailey"
+	tribute 0
+planet "Bank of Blugtad"
+	tribute 0
+planet "Belug's Plunge"
+	tribute 0
+planet "Beryl"
+	tribute 0
+planet "Big Sky"
+	tribute 0
+planet "Bivrost"
+	tribute 0
+planet "Bloodsea"
+	tribute 0
+planet "Bloptab's Furnace"
+	tribute 0
+planet "Blubipad's Workshop"
+	tribute 0
+planet "Blue Interior"
+	tribute 0
+planet "Bluerun"
+	tribute 0
+planet "Bluestone"
+	tribute 0
+planet "Bosunothro"
+	tribute 0
+planet "Bounty"
+	tribute 0
+planet "Bourne"
+	tribute 0
+planet "Brass Second"
+	tribute 0
+planet "Bright Echo"
+	tribute 0
+planet "Buccaneer Bay"
+	tribute 0
+planet "Builder Settlement"
+	tribute 0
+planet "Bunthro"
+	tribute 0
+planet "Burthen"
+	tribute 0
+planet "Byruca"
+	tribute 0
+planet "Caelian"
+	tribute 0
+planet "Calda"
+	tribute 0
+planet "Calesi"
+	tribute 0
+planet "Canyon"
+	tribute 0
+planet "Capitoline"
+	tribute 0
+planet "Carbuncle Station"
+	tribute 0
+planet "Cassandra"
+	tribute 0
+planet "Cavaasa-Vasa-Tej"
+	tribute 0
+planet "Ceaseless Toil"
+	tribute 0
+planet "Ceilia'sei"
+	tribute 0
+planet "Celeatis"
+	tribute 0
+planet "Celestial Third"
+	tribute 0
+planet "Charon Station"
+	tribute 0
+planet "Charybdis Station"
+	tribute 0
+planet "Chiron"
+	tribute 0
+planet "Chosen Nexus"
+	tribute 0
+planet "Chyyra-Raaqa-Tuur"
+	tribute 0
+planet "Cipi"
+	tribute 0
+planet "Clark"
+	tribute 0
+planet "Clink"
+	tribute 0
+planet "Cloudfire"
+	tribute 0
+planet "Cold Horizon"
+	tribute 0
+planet "Cool Forest"
+	tribute 0
+planet "Cornucopia"
+	tribute 0
+planet "Corral of Meblumem"
+	tribute 0
+planet "Covert"
+	tribute 0
+planet "Crataegusa"
+	tribute 0
+planet "Crossroads"
+	tribute 0
+planet "Cyife"
+	tribute 0
+planet "Cyreal"
+	tribute 0
+planet "Dagon Station"
+	tribute 0
+planet "Dancer"
+	tribute 0
+planet "Darkcloak"
+	tribute 0
+planet "Darkmetal"
+	tribute 0
+planet "Darkrest"
+	tribute 0
+planet "Darkstone"
+	tribute 0
+planet "Darkwaste"
+	tribute 0
+planet "Deadman's Cove"
+	tribute 0
+planet "Deep Treasure"
+	tribute 0
+planet "Deep Water"
+	tribute 0
+planet "Deep"
+	tribute 0
+planet "Deka Dathnak"
+	tribute 0
+planet "Deli Kasi"
+	tribute 0
+planet "Deli Kat"
+	tribute 0
+planet "Delodir"
+	tribute 0
+planet "Delve of Bloptab"
+	tribute 0
+planet "Delve"
+	tribute 0
+planet "Desi Seledrak"
+	tribute 0
+planet "Devil-Eye"
+	tribute 0
+planet "Devil-Run Wormhole"
+	tribute 0
+planet "Devru Kaska"
+	tribute 0
+planet "Diligent Hand"
+	tribute 0
+planet "Disara"
+	tribute 0
+planet "Dlia Jzaur"
+	tribute 0
+planet "Dokimi Range"
+	tribute 0
+planet "Double Haze"
+	tribute 0
+planet "Drekag Firask"
+	tribute 0
+planet "Dueitch Ae"
+	tribute 0
+planet "Dueyu Eitch"
+	tribute 0
+planet "Dune"
+	tribute 0
+planet "Dusk Companion"
+	tribute 0
+planet "Dustmaker"
+	tribute 0
+planet "Dwelling of Speloog"
+	tribute 0
+planet "Earth"
+	tribute 0
+planet "Eavine"
+	tribute 0
+planet "Echo"
+	tribute 0
+planet "Eeu Mnai"
+	tribute 0
+planet "Ef Aourtdye"
+	tribute 0
+planet "Ef Osch"
+	tribute 0
+planet "Eldergrasp"
+	tribute 0
+planet "Elek Kartanu"
+	tribute 0
+planet "Elenchus"
+	tribute 0
+planet "Elthe"
+	tribute 0
+planet "Ember Gegno"
+	tribute 0
+planet "Ember Graveyard"
+	tribute 0
+planet "Ember Reaches"
+	tribute 0
+planet "Ember Threshold"
+	tribute 0
+planet "Ember Twilight"
+	tribute 0
+planet "Ember Wormhole"
+	tribute 0
+planet "Eminonu"
+	tribute 0
+planet "Enbye"
+	tribute 0
+planet "Enn Bue"
+	tribute 0
+planet "Entantel"
+	tribute 0
+planet "Erabuthro"
+	tribute 0
+planet "Eragarthro"
+	tribute 0
+planet "Ergastirio Station"
+	tribute 0
+planet "Esayaku Fen"
+	tribute 0
+planet "Esek Stovar"
+	tribute 0
+planet "Eskar Kortuka"
+	tribute 0
+planet "Esperaktu Station"
+	tribute 0
+planet "Esquiline"
+	tribute 0
+planet "Essime"
+	tribute 0
+planet "Esstch"
+	tribute 0
+planet "Everhope"
+	tribute 0
+planet "Factory of Eblumab"
+	tribute 0
+planet "Far Garden"
+	tribute 0
+planet "Far Home"
+	tribute 0
+planet "Far Monad"
+	tribute 0
+planet "Far'en Lai"
+	tribute 0
+planet "Fara Skaeruti"
+	tribute 0
+planet "Farpoint"
+	tribute 0
+planet "Farseer"
+	tribute 0
+planet "Farwater"
+	tribute 0
+planet "Featherweight"
+	tribute 0
+planet "Fek Rembatu"
+	tribute 0
+planet "Felorap"
+	tribute 0
+planet "Fenrir Station"
+	tribute 0
+planet "Feo Platform"
+	tribute 0
+planet "Fertriery"
+	tribute 0
+planet "Firefall"
+	tribute 0
+planet "Firelode"
+	tribute 0
+planet "Firka Tesk"
+	tribute 0
+planet "Flood"
+	tribute 0
+planet "Flowing Fields"
+	tribute 0
+planet "Follower"
+	tribute 0
+planet "Forpelog"
+	tribute 0
+planet "Foundry"
+	tribute 0
+planet "Fourth Shadow"
+	tribute 0
+planet "Freedom"
+	tribute 0
+planet "Frostmark"
+	tribute 0
+planet "Furnace"
+	tribute 0
+planet "Gagarin"
+	tribute 0
+planet "Gamla"
+	tribute 0
+planet "Gara Pvu"
+	tribute 0
+planet "Garden Empyreal"
+	tribute 0
+planet "Geminus"
+	tribute 0
+planet "Gemstone"
+	tribute 0
+planet "Gentle Rain"
+	tribute 0
+planet "Gestli"
+	tribute 0
+planet "Geyser"
+	tribute 0
+planet "Ghneoe"
+	tribute 0
+planet "Giaru Gegno"
+	tribute 0
+planet "Giiq-Oj-Sol"
+	tribute 0
+planet "Giiq-Sou-Kella"
+	tribute 0
+planet "Giverstone"
+	tribute 0
+planet "Glaze"
+	tribute 0
+planet "Gliese"
+	tribute 0
+planet "Glittering Ice"
+	tribute 0
+planet "Glory"
+	tribute 0
+planet "Goldcrawl"
+	tribute 0
+planet "Graede"
+	tribute 0
+planet "Grakhord"
+	tribute 0
+planet "Graveyard Wormhole (Stable)"
+	tribute 0
+planet "Graveyard Wormhole (Unstable)"
+	tribute 0
+planet "Greenbloom"
+	tribute 0
+planet "Greenrock"
+	tribute 0
+planet "Greenview"
+	tribute 0
+planet "Greenwater"
+	tribute 0
+planet "Gresku Fodar"
+	tribute 0
+planet "Greymoon"
+	tribute 0
+planet "Guardian Array Sapphire"
+	tribute 0
+planet "Gue Faur"
+	tribute 0
+planet "Hai-home"
+	tribute 0
+planet "Hammer of Debrugt"
+	tribute 0
+planet "Harmony"
+	tribute 0
+planet "Haven"
+	tribute 0
+planet "Haze"
+	tribute 0
+planet "Heartland"
+	tribute 0
+planet "Heartvalley"
+	tribute 0
+planet "Helheim"
+	tribute 0
+planet "Hephaestus"
+	tribute 0
+planet "Hermes"
+	tribute 0
+planet "Hespair"
+	tribute 0
+planet "Hestia"
+	tribute 0
+planet "Hilothire"
+	tribute 0
+planet "Hippocrates"
+	tribute 0
+planet "Hope"
+	tribute 0
+planet "Hopper"
+	tribute 0
+planet "Huginn Station"
+	tribute 0
+planet "Humanika"
+	tribute 0
+planet "Humo"
+	tribute 0
+planet "Hydra Station"
+	tribute 0
+planet "Icefall"
+	tribute 0
+planet "Icelake"
+	tribute 0
+planet "Iconil"
+	tribute 0
+planet "Iddesato"
+	tribute 0
+planet "Iemn Eitch"
+	tribute 0
+planet "Igna"
+	tribute 0
+planet "Illbo Avo"
+	tribute 0
+planet "Illbo Elo"
+	tribute 0
+planet "Independance"
+	tribute 0
+planet "Ingot"
+	tribute 0
+planet "Inmost Blue"
+	tribute 0
+planet "Into White"
+	tribute 0
+planet "Iritoroost"
+	tribute 0
+planet "Ironfirth"
+	tribute 0
+planet "Iyra-Ijasa-Iret"
+	tribute 0
+planet "Jakobsen"
+	tribute 0
+planet "Janalos"
+	tribute 0
+planet "Janiculum"
+	tribute 0
+planet "Jentuthro"
+	tribute 0
+planet "Jupiter"
+	tribute 0
+planet "Kaeyin"
+	tribute 0
+planet "Kalakil"
+	tribute 0
+planet "Kalbai"
+	tribute 0
+planet "Kapnos"
+	tribute 0
+planet "Karek Fornati"
+	tribute 0
+planet "Kasi-Osolaa-Sossa"
+	tribute 0
+planet "Kasichara Fet"
+	tribute 0
+planet "Kasii-Cavasaa-Oa"
+	tribute 0
+planet "Kasii-Tuur-Saqru"
+	tribute 0
+planet "Katkradol"
+	tribute 0
+planet "Kella-Uuoru-Sossa"
+	tribute 0
+planet "Keneska Fek"
+	tribute 0
+planet "Kessel Sepret"
+	tribute 0
+planet "Khora-Uurau-Uuoru"
+	tribute 0
+planet "Khora-Vasa-Reyyaa"
+	tribute 0
+planet "Khosa-Kella-Oa"
+	tribute 0
+planet "Ki Patek Ka"
+	tribute 0
+planet "Kisarra"
+	tribute 0
+planet "Korati Efreti"
+	tribute 0
+planet "Korbatri Eska"
+	tribute 0
+planet "Kort Kehai"
+	tribute 0
+planet "Kort Vek'kri"
+	tribute 0
+planet "Kraken Station"
+	tribute 0
+planet "Kua-Oa-Aava"
+	tribute 0
+planet "Kuj-Sol-Nnesa"
+	tribute 0
+planet "Kumkapi"
+	tribute 0
+planet "Kuwaru Efreti"
+	tribute 0
+planet "Lagrange"
+	tribute 0
+planet "Laki Nemparu"
+	tribute 0
+planet "Lenz's Loop"
+	tribute 0
+planet "Letis'sei"
+	tribute 0
+planet "Leviathan Station"
+	tribute 0
+planet "Lichen"
+	tribute 0
+planet "Limejog"
+	tribute 0
+planet "Livolua"
+	tribute 0
+planet "Lodestone"
+	tribute 0
+planet "Longjump"
+	tribute 0
+planet "Luna"
+	tribute 0
+planet "Mabatham"
+	tribute 0
+planet "Maelstrom"
+	tribute 0
+planet "Mahoganybox"
+	tribute 0
+planet "Mainsail"
+	tribute 0
+planet "Maker"
+	tribute 0
+planet "Makerplace"
+	tribute 0
+planet "Mani"
+	tribute 0
+planet "Market of Gupta"
+	tribute 0
+planet "Mars"
+	tribute 0
+planet "Martini"
+	tribute 0
+planet "Masada"
+	tribute 0
+planet "Maspa-Viir-Kella"
+	tribute 0
+planet "Mavra-Sol-Kvel"
+	tribute 0
+planet "Mebla's Portion"
+	tribute 0
+planet "Melatos"
+	tribute 0
+planet "Melenci"
+	tribute 0
+planet "Memory"
+	tribute 0
+planet "Mendez Station"
+	tribute 0
+planet "Merask Fortuno"
+	tribute 0
+planet "Mere"
+	tribute 0
+planet "Mereti Station"
+	tribute 0
+planet "Methuselah"
+	tribute 0
+planet "Miblulub's Plenty"
+	tribute 0
+planet "Midgard"
+	tribute 0
+planet "Midway Emerald"
+	tribute 0
+planet "Millrace"
+	tribute 0
+planet "Mirrorlake"
+	tribute 0
+planet "Mnai"
+	tribute 0
+planet "Moonshake"
+	tribute 0
+planet "Mordente-Bridi"
+	tribute 0
+planet "Mosaa-Oa-Vyret"
+	tribute 0
+planet "Muninn Station"
+	tribute 0
+planet "Muspel"
+	tribute 0
+planet "Mutiny"
+	tribute 0
+planet "Myiara-Aret-Iir"
+	tribute 0
+planet "Myiara-Sola-Tej"
+	tribute 0
+planet "Mystery"
+	tribute 0
+planet "Naph-Naap-Kella"
+	tribute 0
+planet "Naphir"
+	tribute 0
+planet "Nasqueron"
+	tribute 0
+planet "Navigeo Yards"
+	tribute 0
+planet "Nearby Jade"
+	tribute 0
+planet "Nepheritis"
+	tribute 0
+planet "Neriene"
+	tribute 0
+planet "New Argentina"
+	tribute 0
+planet "New Austria"
+	tribute 0
+planet "New Boston"
+	tribute 0
+planet "New Britain"
+	tribute 0
+planet "New China"
+	tribute 0
+planet "New Finding"
+	tribute 0
+planet "New Greenland"
+	tribute 0
+planet "New Holland"
+	tribute 0
+planet "New Iceland"
+	tribute 0
+planet "New India"
+	tribute 0
+planet "New Kansas"
+	tribute 0
+planet "New Portland"
+	tribute 0
+planet "New Sahara"
+	tribute 0
+planet "New Switzerland"
+	tribute 0
+planet "New Tibet"
+	tribute 0
+planet "New Tortuga"
+	tribute 0
+planet "New Wales"
+	tribute 0
+planet "New Washington"
+	tribute 0
+planet "Newhome"
+	tribute 0
+planet "Nifel"
+	tribute 0
+planet "Nilokep"
+	tribute 0
+planet "Nimbus"
+	tribute 0
+planet "Nisos Cylinder"
+	tribute 0
+planet "Noluc"
+	tribute 0
+planet "Norn"
+	tribute 0
+planet "O-Vasa-Oa"
+	tribute 0
+planet "Oasis"
+	tribute 0
+planet "Oberon Station"
+	tribute 0
+planet "Oblivion"
+	tribute 0
+planet "Occupas"
+	tribute 0
+planet "Ochrescoop"
+	tribute 0
+planet "Ogmur's Siphon"
+	tribute 0
+planet "Okoity"
+	tribute 0
+planet "Olohoa"
+	tribute 0
+planet "Omanet"
+	tribute 0
+planet "Orodens"
+	tribute 0
+planet "Osaeli"
+	tribute 0
+planet "Osolaa-Val-Mavra"
+	tribute 0
+planet "Oup Je"
+	tribute 0
+planet "Oura"
+	tribute 0
+planet "Outpost Alkos"
+	tribute 0
+planet "Outpost Enka"
+	tribute 0
+planet "Outpost Leto"
+	tribute 0
+planet "Outpost Pilos"
+	tribute 0
+planet "Outpost Tekis"
+	tribute 0
+planet "Palarei"
+	tribute 0
+planet "Palatine"
+	tribute 0
+planet "Palos"
+	tribute 0
+planet "Parii'het"
+	tribute 0
+planet "Passaritus"
+	tribute 0
+planet "Pearl"
+	tribute 0
+planet "Pelubta Station"
+	tribute 0
+planet "Periaxle Circuit"
+	tribute 0
+planet "Peripheria"
+	tribute 0
+planet "Phoenix Station"
+	tribute 0
+planet "Pil"
+	tribute 0
+planet "Pilot"
+	tribute 0
+planet "Pincian"
+	tribute 0
+planet "Placatious"
+	tribute 0
+planet "Placer"
+	tribute 0
+planet "Plort's Water"
+	tribute 0
+planet "Poisonwood"
+	tribute 0
+planet "Pon'tes"
+	tribute 0
+planet "Poseidos"
+	tribute 0
+planet "Prime"
+	tribute 0
+planet "Pug Wormhole"
+	tribute 0
+planet "Pugglemug"
+	tribute 0
+planet "Pugglequat"
+	tribute 0
+planet "Pyriphlegethon"
+	tribute 0
+planet "Qasa-Sija-Iri"
+	tribute 0
+planet "Quicksilver"
+	tribute 0
+planet "Quirinal"
+	tribute 0
+planet "Raaqa-Kvelq-Ryuit"
+	tribute 0
+planet "Raaqa-Puan-Uuoru"
+	tribute 0
+planet "Raaqa-Uur-Kaav"
+	tribute 0
+planet "Rand"
+	tribute 0
+planet "Redias"
+	tribute 0
+planet "Redwatch"
+	tribute 0
+planet "Refuge of Belugt"
+	tribute 0
+planet "Rekat Moraski"
+	tribute 0
+planet "Relic"
+	tribute 0
+planet "Remnant Wormhole"
+	tribute 0
+planet "Remote Blue"
+	tribute 0
+planet "Retilie"
+	tribute 0
+planet "Reunion"
+	tribute 0
+planet "Revelation"
+	tribute 0
+planet "Ring of Friendship"
+	tribute 0
+planet "Ring of Power"
+	tribute 0
+planet "Ring of Wisdom"
+	tribute 0
+planet "Rolion"
+	tribute 0
+planet "Rowark's Roost"
+	tribute 0
+planet "Ruelogakk"
+	tribute 0
+planet "Ruin"
+	tribute 0
+planet "Rust"
+	tribute 0
+planet "Rusty Second"
+	tribute 0
+planet "Sabira Eseskrai"
+	tribute 0
+planet "Saeketer"
+	tribute 0
+planet "Safaresk Enlai"
+	tribute 0
+planet "Sandsnap"
+	tribute 0
+planet "Sandy Two"
+	tribute 0
+planet "Sapira Mereti"
+	tribute 0
+planet "Sardva"
+	tribute 0
+planet "Sarisa Fentra"
+	tribute 0
+planet "Saros"
+	tribute 0
+planet "Sasirka Gatru"
+	tribute 0
+planet "Saska-Aa-Noorr"
+	tribute 0
+planet "Sebarep Atarkis"
+	tribute 0
+planet "Sebra Skira"
+	tribute 0
+planet "Second Cerulean"
+	tribute 0
+planet "Second Rose"
+	tribute 0
+planet "Second Viridian"
+	tribute 0
+planet "Secret Sky"
+	tribute 0
+planet "Sek Alarfarat"
+	tribute 0
+planet "Sela"
+	tribute 0
+planet "Selefkar Refinery"
+	tribute 0
+planet "Seleptra Nak"
+	tribute 0
+planet "Seli'het"
+	tribute 0
+planet "Separa Tiklar"
+	tribute 0
+planet "Septar Lorku"
+	tribute 0
+planet "Seraglio"
+	tribute 0
+planet "Serpens"
+	tribute 0
+planet "Servian"
+	tribute 0
+planet "Sessiliki Far"
+	tribute 0
+planet "Sestor Ikfar"
+	tribute 0
+planet "Setar Fort"
+	tribute 0
+planet "Shadow of Leaves"
+	tribute 0
+planet "Shadowed Valley"
+	tribute 0
+planet "Shangri-La"
+	tribute 0
+planet "Shassa-Wyra-Orrou"
+	tribute 0
+planet "Shifting Sand"
+	tribute 0
+planet "Shih's Locker"
+	tribute 0
+planet "Shiver"
+	tribute 0
+planet "Shorebreak"
+	tribute 0
+planet "Shroud"
+	tribute 0
+planet "Siedi"
+	tribute 0
+planet "Sies Upi"
+	tribute 0
+planet "Silo of Ablodab"
+	tribute 0
+planet "Silver"
+	tribute 0
+planet "Silwan"
+	tribute 0
+planet "Sinter"
+	tribute 0
+planet "Siteria"
+	tribute 0
+planet "Skillet"
+	tribute 0
+planet "Skyfarm"
+	tribute 0
+planet "Skymoot"
+	tribute 0
+planet "Slylandro"
+	tribute 0
+planet "Smuggler's Den"
+	tribute 0
+planet "Snowfeather"
+	tribute 0
+planet "Solace"
+	tribute 0
+planet "Solima Skarati"
+	tribute 0
+planet "Sopi Lefarkata"
+	tribute 0
+planet "Sopoyra"
+	tribute 0
+planet "Spec Inci"
+	tribute 0
+planet "Spera Anatrusk"
+	tribute 0
+planet "Splashdown"
+	tribute 0
+planet "Ssil Vida"
+	tribute 0
+planet "Staja-Kella-Oa"
+	tribute 0
+planet "Starcross"
+	tribute 0
+planet "Starting Rubin"
+	tribute 0
+planet "Station Cian"
+	tribute 0
+planet "Steamwater"
+	tribute 0
+planet "Steli"
+	tribute 0
+planet "Stilacrest"
+	tribute 0
+planet "Stonebreak"
+	tribute 0
+planet "Stormhold"
+	tribute 0
+planet "Stronghold of Flugbu"
+	tribute 0
+planet "Successor Wormhole"
+	tribute 0
+planet "Sundive"
+	tribute 0
+planet "Sundrinker"
+	tribute 0
+planet "Sunracer"
+	tribute 0
+planet "Swiftsong"
+	tribute 0
+planet "Taylor"
+	tribute 0
+planet "Tebuteb's Table"
+	tribute 0
+planet "Tefkar Ret"
+	tribute 0
+planet "Ternituul"
+	tribute 0
+planet "Thilos"
+	tribute 0
+planet "Third Umber"
+	tribute 0
+planet "Thornlight"
+	tribute 0
+planet "Thrall"
+	tribute 0
+planet "Thshybothro"
+	tribute 0
+planet "Thule"
+	tribute 0
+planet "Thunder"
+	tribute 0
+planet "Tibernia"
+	tribute 0
+planet "Tik Klai"
+	tribute 0
+planet "Tinker"
+	tribute 0
+planet "Topkapi"
+	tribute 0
+planet "Treser"
+	tribute 0
+planet "Trinket"
+	tribute 0
+planet "Triton Station"
+	tribute 0
+planet "Trove"
+	tribute 0
+planet "Truklar"
+	tribute 0
+planet "Tschyss"
+	tribute 0
+planet "Tundra"
+	tribute 0
+planet "Turquoise Four"
+	tribute 0
+planet "Turra"
+	tribute 0
+planet "Tuur-Aasa-Kaska"
+	tribute 0
+planet "Tuur-Oa-Sola"
+	tribute 0
+planet "Twinstar"
+	tribute 0
+planet "Typhon Station"
+	tribute 0
+planet "Uo-Oraa-Vayya"
+	tribute 0
+planet "Uryyhr"
+	tribute 0
+planet "Ut Divitas"
+	tribute 0
+planet "Uuoru-Veldt-Stir"
+	tribute 0
+planet "Uye Mpi"
+	tribute 0
+planet "Vade-Osolaa-Kaska"
+	tribute 0
+planet "Vail"
+	tribute 0
+planet "Valhalla"
+	tribute 0
+planet "Valley of the Damned"
+	tribute 0
+planet "Vanikos"
+	tribute 0
+planet "Var Oti"
+	tribute 0
+planet "Var' Kar'i'i"
+	tribute 0
+planet "Var' Kayi"
+	tribute 0
+planet "Var' Roi"
+	tribute 0
+planet "Vara K'chrai"
+	tribute 0
+planet "Vara Ke'sok"
+	tribute 0
+planet "Vara Ke'stai"
+	tribute 0
+planet "Vara Kehi'ki"
+	tribute 0
+planet "Vara Pug"
+	tribute 0
+planet "Vara Rakak"
+	tribute 0
+planet "Varu Ek'lak'lai"
+	tribute 0
+planet "Varu K'est"
+	tribute 0
+planet "Varu K'prai"
+	tribute 0
+planet "Varu Mer'ek"
+	tribute 0
+planet "Varu Tek'kai"
+	tribute 0
+planet "Varu Tev'kei"
+	tribute 0
+planet "Vatican"
+	tribute 0
+planet "Veiuye"
+	tribute 0
+planet "Veliante"
+	tribute 0
+planet "Vibrant Water"
+	tribute 0
+planet "Vigales"
+	tribute 0
+planet "Viminal"
+	tribute 0
+planet "Vinci"
+	tribute 0
+planet "Violetwake"
+	tribute 0
+planet "Viso"
+	tribute 0
+planet "Vivid Aether"
+	tribute 0
+planet "Vulpa"
+	tribute 0
+planet "Vyraa-Giiq-Sora"
+	tribute 0
+planet "Vyraa-Viir-Kella"
+	tribute 0
+planet "Warfeed"
+	tribute 0
+planet "Warm Slope"
+	tribute 0
+planet "Warm Wind"
+	tribute 0
+planet "Watcher"
+	tribute 0
+planet "Wayfarer"
+	tribute 0
+planet "Weir of Glubatub"
+	tribute 0
+planet "Weledos"
+	tribute 0
+planet "Windblain"
+	tribute 0
+planet "Winter"
+	tribute 0
+planet "Wormhole Alpha"
+	tribute 0
+planet "Wormhole Barren Alpha"
+	tribute 0
+planet "Wormhole Barren Beta"
+	tribute 0
+planet "Wormhole Link"
+	tribute 0
+planet "Wye Tzeou"
+	tribute 0
+planet "Wyvern Station"
+	tribute 0
+planet "Xerolophos"
+	tribute 0
+planet "Xurelei"
+	tribute 0
+planet "Yedikule"
+	tribute 0
+planet "Yiddoi"
+	tribute 0
+planet "Yiia Iyr"
+	tribute 0
+planet "Yniu Eiu"
+	tribute 0
+planet "Yniu Ena"
+	tribute 0
+planet "Yoqqa-Vasa-Vasa"
+	tribute 0
+planet "Zenith"
+	tribute 0
+planet "Zug"
+	tribute 0
+planet "Zydee"
+	tribute 0
